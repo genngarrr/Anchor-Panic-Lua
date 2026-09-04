@@ -1,0 +1,2303 @@
+-- from 187 战员蛋配置表.xlsx
+
+local egg_data=
+
+{
+	[3]={ ele_type_data={
+		[3]={ item_id=24003, hero_ele_type=2, level_data={
+		[46]={ lv=1, cost_tid_list={{2608,4}}, attr={
+		[136]={ key=11, value=2920 },
+		[137]={ key=12, value=205 },
+		[138]={ key=13, value=9 },
+}, pay_id=1, pay_num=400 },
+		[47]={ lv=2, cost_tid_list={{2608,5}}, attr={
+		[139]={ key=11, value=3002 },
+		[140]={ key=12, value=211 },
+		[141]={ key=13, value=9 },
+}, pay_id=1, pay_num=500 },
+		[48]={ lv=3, cost_tid_list={{2608,5}}, attr={
+		[142]={ key=11, value=3086 },
+		[143]={ key=12, value=218 },
+		[144]={ key=13, value=10 },
+}, pay_id=1, pay_num=600 },
+		[49]={ lv=4, cost_tid_list={{2608,6}}, attr={
+		[145]={ key=11, value=3171 },
+		[146]={ key=12, value=224 },
+		[147]={ key=13, value=11 },
+}, pay_id=1, pay_num=700 },
+		[50]={ lv=5, cost_tid_list={{2608,8}}, attr={
+		[148]={ key=11, value=3256 },
+		[149]={ key=12, value=231 },
+		[150]={ key=13, value=12 },
+}, pay_id=1, pay_num=800 },
+		[51]={ lv=6, cost_tid_list={{2608,10}}, attr={
+		[151]={ key=11, value=3343 },
+		[152]={ key=12, value=237 },
+		[153]={ key=13, value=13 },
+}, pay_id=1, pay_num=900 },
+		[52]={ lv=7, cost_tid_list={{2608,10}}, attr={
+		[154]={ key=11, value=3431 },
+		[155]={ key=12, value=243 },
+		[156]={ key=13, value=14 },
+}, pay_id=1, pay_num=1000 },
+		[53]={ lv=8, cost_tid_list={{2608,12}}, attr={
+		[157]={ key=11, value=3520 },
+		[158]={ key=12, value=250 },
+		[159]={ key=13, value=15 },
+}, pay_id=1, pay_num=1200 },
+		[54]={ lv=9, cost_tid_list={{2608,16}}, attr={
+		[160]={ key=11, value=3610 },
+		[161]={ key=12, value=256 },
+		[162]={ key=13, value=17 },
+}, pay_id=1, pay_num=1600 },
+		[55]={ lv=10, cost_tid_list={{2608,18}}, attr={
+		[163]={ key=11, value=3701 },
+		[164]={ key=12, value=263 },
+		[165]={ key=13, value=18 },
+}, pay_id=1, pay_num=1800 },
+		[56]={ lv=11, cost_tid_list={{2608,22}}, attr={
+		[166]={ key=11, value=3794 },
+		[167]={ key=12, value=270 },
+		[168]={ key=13, value=20 },
+}, pay_id=1, pay_num=2200 },
+		[57]={ lv=12, cost_tid_list={{2608,26}}, attr={
+		[169]={ key=11, value=3887 },
+		[170]={ key=12, value=276 },
+		[171]={ key=13, value=22 },
+}, pay_id=1, pay_num=2600 },
+		[58]={ lv=13, cost_tid_list={{2608,30}}, attr={
+		[172]={ key=11, value=3982 },
+		[173]={ key=12, value=283 },
+		[174]={ key=13, value=24 },
+}, pay_id=1, pay_num=3000 },
+		[59]={ lv=14, cost_tid_list={{2608,36}}, attr={
+		[175]={ key=11, value=4077 },
+		[176]={ key=12, value=290 },
+		[177]={ key=13, value=27 },
+}, pay_id=1, pay_num=3600 },
+		[60]={ lv=15, cost_tid_list={{2608,44}}, attr={
+		[178]={ key=11, value=4174 },
+		[179]={ key=12, value=297 },
+		[180]={ key=13, value=29 },
+}, pay_id=1, pay_num=4400 },
+		[61]={ lv=16, cost_tid_list={{2608,52}}, attr={
+		[181]={ key=11, value=4272 },
+		[182]={ key=12, value=304 },
+		[183]={ key=13, value=32 },
+}, pay_id=1, pay_num=5200 },
+		[62]={ lv=17, cost_tid_list={{2608,62}}, attr={
+		[184]={ key=11, value=4371 },
+		[185]={ key=12, value=311 },
+		[186]={ key=13, value=35 },
+}, pay_id=1, pay_num=6200 },
+		[63]={ lv=18, cost_tid_list={{2608,74}}, attr={
+		[187]={ key=11, value=4471 },
+		[188]={ key=12, value=318 },
+		[189]={ key=13, value=38 },
+}, pay_id=1, pay_num=7400 },
+		[64]={ lv=19, cost_tid_list={{2608,88}}, attr={
+		[190]={ key=11, value=4572 },
+		[191]={ key=12, value=325 },
+		[192]={ key=13, value=41 },
+}, pay_id=1, pay_num=8800 },
+		[65]={ lv=20, cost_tid_list={{2608,108}}, attr={
+		[193]={ key=11, value=4674 },
+		[194]={ key=12, value=332 },
+		[195]={ key=13, value=44 },
+}, pay_id=1, pay_num=10800 },
+		[66]={ lv=21, cost_tid_list={{2608,132}}, attr={
+		[196]={ key=11, value=4780 },
+		[197]={ key=12, value=340 },
+		[198]={ key=13, value=48 },
+}, pay_id=1, pay_num=13200 },
+		[67]={ lv=22, cost_tid_list={{2608,160}}, attr={
+		[199]={ key=11, value=4888 },
+		[200]={ key=12, value=347 },
+		[201]={ key=13, value=52 },
+}, pay_id=1, pay_num=16000 },
+		[68]={ lv=23, cost_tid_list={{2608,196}}, attr={
+		[202]={ key=11, value=5000 },
+		[203]={ key=12, value=355 },
+		[204]={ key=13, value=55 },
+}, pay_id=1, pay_num=19600 },
+		[69]={ lv=24, cost_tid_list={{2608,240}}, attr={
+		[205]={ key=11, value=5116 },
+		[206]={ key=12, value=363 },
+		[207]={ key=13, value=60 },
+}, pay_id=1, pay_num=24000 },
+		[70]={ lv=25, cost_tid_list={{2608,304}}, attr={
+		[208]={ key=11, value=5235 },
+		[209]={ key=12, value=372 },
+		[210]={ key=13, value=64 },
+}, pay_id=1, pay_num=30400 },
+		[71]={ lv=26, cost_tid_list={{2608,384}}, attr={
+		[211]={ key=11, value=5360 },
+		[212]={ key=12, value=381 },
+		[213]={ key=13, value=69 },
+}, pay_id=1, pay_num=38400 },
+		[72]={ lv=27, cost_tid_list={{2608,480}}, attr={
+		[214]={ key=11, value=5492 },
+		[215]={ key=12, value=390 },
+		[216]={ key=13, value=74 },
+}, pay_id=1, pay_num=48000 },
+		[73]={ lv=28, cost_tid_list={{2608,586}}, attr={
+		[217]={ key=11, value=5630 },
+		[218]={ key=12, value=400 },
+		[219]={ key=13, value=79 },
+}, pay_id=1, pay_num=58600 },
+		[74]={ lv=29, cost_tid_list={{2608,736}}, attr={
+		[220]={ key=11, value=5775 },
+		[221]={ key=12, value=410 },
+		[222]={ key=13, value=84 },
+}, pay_id=1, pay_num=73600 },
+		[75]={ lv=30, cost_tid_list={}, attr={
+		[223]={ key=11, value=5927 },
+		[224]={ key=12, value=421 },
+		[225]={ key=13, value=90 },
+}, pay_id=1, pay_num=0 },
+}, egg_res_id=24003 },
+		[6]={ item_id=24006, hero_ele_type=3, level_data={
+		[46]={ lv=1, cost_tid_list={{2608,4}}, attr={
+		[136]={ key=11, value=2920 },
+		[137]={ key=12, value=205 },
+		[138]={ key=13, value=9 },
+}, pay_id=1, pay_num=400 },
+		[47]={ lv=2, cost_tid_list={{2608,5}}, attr={
+		[139]={ key=11, value=3002 },
+		[140]={ key=12, value=211 },
+		[141]={ key=13, value=9 },
+}, pay_id=1, pay_num=500 },
+		[48]={ lv=3, cost_tid_list={{2608,5}}, attr={
+		[142]={ key=11, value=3086 },
+		[143]={ key=12, value=218 },
+		[144]={ key=13, value=10 },
+}, pay_id=1, pay_num=600 },
+		[49]={ lv=4, cost_tid_list={{2608,6}}, attr={
+		[145]={ key=11, value=3171 },
+		[146]={ key=12, value=224 },
+		[147]={ key=13, value=11 },
+}, pay_id=1, pay_num=700 },
+		[50]={ lv=5, cost_tid_list={{2608,8}}, attr={
+		[148]={ key=11, value=3256 },
+		[149]={ key=12, value=231 },
+		[150]={ key=13, value=12 },
+}, pay_id=1, pay_num=800 },
+		[51]={ lv=6, cost_tid_list={{2608,10}}, attr={
+		[151]={ key=11, value=3343 },
+		[152]={ key=12, value=237 },
+		[153]={ key=13, value=13 },
+}, pay_id=1, pay_num=900 },
+		[52]={ lv=7, cost_tid_list={{2608,10}}, attr={
+		[154]={ key=11, value=3431 },
+		[155]={ key=12, value=243 },
+		[156]={ key=13, value=14 },
+}, pay_id=1, pay_num=1000 },
+		[53]={ lv=8, cost_tid_list={{2608,12}}, attr={
+		[157]={ key=11, value=3520 },
+		[158]={ key=12, value=250 },
+		[159]={ key=13, value=15 },
+}, pay_id=1, pay_num=1200 },
+		[54]={ lv=9, cost_tid_list={{2608,16}}, attr={
+		[160]={ key=11, value=3610 },
+		[161]={ key=12, value=256 },
+		[162]={ key=13, value=17 },
+}, pay_id=1, pay_num=1600 },
+		[55]={ lv=10, cost_tid_list={{2608,18}}, attr={
+		[163]={ key=11, value=3701 },
+		[164]={ key=12, value=263 },
+		[165]={ key=13, value=18 },
+}, pay_id=1, pay_num=1800 },
+		[56]={ lv=11, cost_tid_list={{2608,22}}, attr={
+		[166]={ key=11, value=3794 },
+		[167]={ key=12, value=270 },
+		[168]={ key=13, value=20 },
+}, pay_id=1, pay_num=2200 },
+		[57]={ lv=12, cost_tid_list={{2608,26}}, attr={
+		[169]={ key=11, value=3887 },
+		[170]={ key=12, value=276 },
+		[171]={ key=13, value=22 },
+}, pay_id=1, pay_num=2600 },
+		[58]={ lv=13, cost_tid_list={{2608,30}}, attr={
+		[172]={ key=11, value=3982 },
+		[173]={ key=12, value=283 },
+		[174]={ key=13, value=24 },
+}, pay_id=1, pay_num=3000 },
+		[59]={ lv=14, cost_tid_list={{2608,36}}, attr={
+		[175]={ key=11, value=4077 },
+		[176]={ key=12, value=290 },
+		[177]={ key=13, value=27 },
+}, pay_id=1, pay_num=3600 },
+		[60]={ lv=15, cost_tid_list={{2608,44}}, attr={
+		[178]={ key=11, value=4174 },
+		[179]={ key=12, value=297 },
+		[180]={ key=13, value=29 },
+}, pay_id=1, pay_num=4400 },
+		[61]={ lv=16, cost_tid_list={{2608,52}}, attr={
+		[181]={ key=11, value=4272 },
+		[182]={ key=12, value=304 },
+		[183]={ key=13, value=32 },
+}, pay_id=1, pay_num=5200 },
+		[62]={ lv=17, cost_tid_list={{2608,62}}, attr={
+		[184]={ key=11, value=4371 },
+		[185]={ key=12, value=311 },
+		[186]={ key=13, value=35 },
+}, pay_id=1, pay_num=6200 },
+		[63]={ lv=18, cost_tid_list={{2608,74}}, attr={
+		[187]={ key=11, value=4471 },
+		[188]={ key=12, value=318 },
+		[189]={ key=13, value=38 },
+}, pay_id=1, pay_num=7400 },
+		[64]={ lv=19, cost_tid_list={{2608,88}}, attr={
+		[190]={ key=11, value=4572 },
+		[191]={ key=12, value=325 },
+		[192]={ key=13, value=41 },
+}, pay_id=1, pay_num=8800 },
+		[65]={ lv=20, cost_tid_list={{2608,108}}, attr={
+		[193]={ key=11, value=4674 },
+		[194]={ key=12, value=332 },
+		[195]={ key=13, value=44 },
+}, pay_id=1, pay_num=10800 },
+		[66]={ lv=21, cost_tid_list={{2608,132}}, attr={
+		[196]={ key=11, value=4780 },
+		[197]={ key=12, value=340 },
+		[198]={ key=13, value=48 },
+}, pay_id=1, pay_num=13200 },
+		[67]={ lv=22, cost_tid_list={{2608,160}}, attr={
+		[199]={ key=11, value=4888 },
+		[200]={ key=12, value=347 },
+		[201]={ key=13, value=52 },
+}, pay_id=1, pay_num=16000 },
+		[68]={ lv=23, cost_tid_list={{2608,196}}, attr={
+		[202]={ key=11, value=5000 },
+		[203]={ key=12, value=355 },
+		[204]={ key=13, value=55 },
+}, pay_id=1, pay_num=19600 },
+		[69]={ lv=24, cost_tid_list={{2608,240}}, attr={
+		[205]={ key=11, value=5116 },
+		[206]={ key=12, value=363 },
+		[207]={ key=13, value=60 },
+}, pay_id=1, pay_num=24000 },
+		[70]={ lv=25, cost_tid_list={{2608,304}}, attr={
+		[208]={ key=11, value=5235 },
+		[209]={ key=12, value=372 },
+		[210]={ key=13, value=64 },
+}, pay_id=1, pay_num=30400 },
+		[71]={ lv=26, cost_tid_list={{2608,384}}, attr={
+		[211]={ key=11, value=5360 },
+		[212]={ key=12, value=381 },
+		[213]={ key=13, value=69 },
+}, pay_id=1, pay_num=38400 },
+		[72]={ lv=27, cost_tid_list={{2608,480}}, attr={
+		[214]={ key=11, value=5492 },
+		[215]={ key=12, value=390 },
+		[216]={ key=13, value=74 },
+}, pay_id=1, pay_num=48000 },
+		[73]={ lv=28, cost_tid_list={{2608,586}}, attr={
+		[217]={ key=11, value=5630 },
+		[218]={ key=12, value=400 },
+		[219]={ key=13, value=79 },
+}, pay_id=1, pay_num=58600 },
+		[74]={ lv=29, cost_tid_list={{2608,736}}, attr={
+		[220]={ key=11, value=5775 },
+		[221]={ key=12, value=410 },
+		[222]={ key=13, value=84 },
+}, pay_id=1, pay_num=73600 },
+		[75]={ lv=30, cost_tid_list={}, attr={
+		[223]={ key=11, value=5927 },
+		[224]={ key=12, value=421 },
+		[225]={ key=13, value=90 },
+}, pay_id=1, pay_num=0 },
+}, egg_res_id=24006 },
+		[9]={ item_id=24009, hero_ele_type=4, level_data={
+		[46]={ lv=1, cost_tid_list={{2608,4}}, attr={
+		[136]={ key=11, value=2920 },
+		[137]={ key=12, value=205 },
+		[138]={ key=13, value=9 },
+}, pay_id=1, pay_num=400 },
+		[47]={ lv=2, cost_tid_list={{2608,5}}, attr={
+		[139]={ key=11, value=3002 },
+		[140]={ key=12, value=211 },
+		[141]={ key=13, value=9 },
+}, pay_id=1, pay_num=500 },
+		[48]={ lv=3, cost_tid_list={{2608,5}}, attr={
+		[142]={ key=11, value=3086 },
+		[143]={ key=12, value=218 },
+		[144]={ key=13, value=10 },
+}, pay_id=1, pay_num=600 },
+		[49]={ lv=4, cost_tid_list={{2608,6}}, attr={
+		[145]={ key=11, value=3171 },
+		[146]={ key=12, value=224 },
+		[147]={ key=13, value=11 },
+}, pay_id=1, pay_num=700 },
+		[50]={ lv=5, cost_tid_list={{2608,8}}, attr={
+		[148]={ key=11, value=3256 },
+		[149]={ key=12, value=231 },
+		[150]={ key=13, value=12 },
+}, pay_id=1, pay_num=800 },
+		[51]={ lv=6, cost_tid_list={{2608,10}}, attr={
+		[151]={ key=11, value=3343 },
+		[152]={ key=12, value=237 },
+		[153]={ key=13, value=13 },
+}, pay_id=1, pay_num=900 },
+		[52]={ lv=7, cost_tid_list={{2608,10}}, attr={
+		[154]={ key=11, value=3431 },
+		[155]={ key=12, value=243 },
+		[156]={ key=13, value=14 },
+}, pay_id=1, pay_num=1000 },
+		[53]={ lv=8, cost_tid_list={{2608,12}}, attr={
+		[157]={ key=11, value=3520 },
+		[158]={ key=12, value=250 },
+		[159]={ key=13, value=15 },
+}, pay_id=1, pay_num=1200 },
+		[54]={ lv=9, cost_tid_list={{2608,16}}, attr={
+		[160]={ key=11, value=3610 },
+		[161]={ key=12, value=256 },
+		[162]={ key=13, value=17 },
+}, pay_id=1, pay_num=1600 },
+		[55]={ lv=10, cost_tid_list={{2608,18}}, attr={
+		[163]={ key=11, value=3701 },
+		[164]={ key=12, value=263 },
+		[165]={ key=13, value=18 },
+}, pay_id=1, pay_num=1800 },
+		[56]={ lv=11, cost_tid_list={{2608,22}}, attr={
+		[166]={ key=11, value=3794 },
+		[167]={ key=12, value=270 },
+		[168]={ key=13, value=20 },
+}, pay_id=1, pay_num=2200 },
+		[57]={ lv=12, cost_tid_list={{2608,26}}, attr={
+		[169]={ key=11, value=3887 },
+		[170]={ key=12, value=276 },
+		[171]={ key=13, value=22 },
+}, pay_id=1, pay_num=2600 },
+		[58]={ lv=13, cost_tid_list={{2608,30}}, attr={
+		[172]={ key=11, value=3982 },
+		[173]={ key=12, value=283 },
+		[174]={ key=13, value=24 },
+}, pay_id=1, pay_num=3000 },
+		[59]={ lv=14, cost_tid_list={{2608,36}}, attr={
+		[175]={ key=11, value=4077 },
+		[176]={ key=12, value=290 },
+		[177]={ key=13, value=27 },
+}, pay_id=1, pay_num=3600 },
+		[60]={ lv=15, cost_tid_list={{2608,44}}, attr={
+		[178]={ key=11, value=4174 },
+		[179]={ key=12, value=297 },
+		[180]={ key=13, value=29 },
+}, pay_id=1, pay_num=4400 },
+		[61]={ lv=16, cost_tid_list={{2608,52}}, attr={
+		[181]={ key=11, value=4272 },
+		[182]={ key=12, value=304 },
+		[183]={ key=13, value=32 },
+}, pay_id=1, pay_num=5200 },
+		[62]={ lv=17, cost_tid_list={{2608,62}}, attr={
+		[184]={ key=11, value=4371 },
+		[185]={ key=12, value=311 },
+		[186]={ key=13, value=35 },
+}, pay_id=1, pay_num=6200 },
+		[63]={ lv=18, cost_tid_list={{2608,74}}, attr={
+		[187]={ key=11, value=4471 },
+		[188]={ key=12, value=318 },
+		[189]={ key=13, value=38 },
+}, pay_id=1, pay_num=7400 },
+		[64]={ lv=19, cost_tid_list={{2608,88}}, attr={
+		[190]={ key=11, value=4572 },
+		[191]={ key=12, value=325 },
+		[192]={ key=13, value=41 },
+}, pay_id=1, pay_num=8800 },
+		[65]={ lv=20, cost_tid_list={{2608,108}}, attr={
+		[193]={ key=11, value=4674 },
+		[194]={ key=12, value=332 },
+		[195]={ key=13, value=44 },
+}, pay_id=1, pay_num=10800 },
+		[66]={ lv=21, cost_tid_list={{2608,132}}, attr={
+		[196]={ key=11, value=4780 },
+		[197]={ key=12, value=340 },
+		[198]={ key=13, value=48 },
+}, pay_id=1, pay_num=13200 },
+		[67]={ lv=22, cost_tid_list={{2608,160}}, attr={
+		[199]={ key=11, value=4888 },
+		[200]={ key=12, value=347 },
+		[201]={ key=13, value=52 },
+}, pay_id=1, pay_num=16000 },
+		[68]={ lv=23, cost_tid_list={{2608,196}}, attr={
+		[202]={ key=11, value=5000 },
+		[203]={ key=12, value=355 },
+		[204]={ key=13, value=55 },
+}, pay_id=1, pay_num=19600 },
+		[69]={ lv=24, cost_tid_list={{2608,240}}, attr={
+		[205]={ key=11, value=5116 },
+		[206]={ key=12, value=363 },
+		[207]={ key=13, value=60 },
+}, pay_id=1, pay_num=24000 },
+		[70]={ lv=25, cost_tid_list={{2608,304}}, attr={
+		[208]={ key=11, value=5235 },
+		[209]={ key=12, value=372 },
+		[210]={ key=13, value=64 },
+}, pay_id=1, pay_num=30400 },
+		[71]={ lv=26, cost_tid_list={{2608,384}}, attr={
+		[211]={ key=11, value=5360 },
+		[212]={ key=12, value=381 },
+		[213]={ key=13, value=69 },
+}, pay_id=1, pay_num=38400 },
+		[72]={ lv=27, cost_tid_list={{2608,480}}, attr={
+		[214]={ key=11, value=5492 },
+		[215]={ key=12, value=390 },
+		[216]={ key=13, value=74 },
+}, pay_id=1, pay_num=48000 },
+		[73]={ lv=28, cost_tid_list={{2608,586}}, attr={
+		[217]={ key=11, value=5630 },
+		[218]={ key=12, value=400 },
+		[219]={ key=13, value=79 },
+}, pay_id=1, pay_num=58600 },
+		[74]={ lv=29, cost_tid_list={{2608,736}}, attr={
+		[220]={ key=11, value=5775 },
+		[221]={ key=12, value=410 },
+		[222]={ key=13, value=84 },
+}, pay_id=1, pay_num=73600 },
+		[75]={ lv=30, cost_tid_list={}, attr={
+		[223]={ key=11, value=5927 },
+		[224]={ key=12, value=421 },
+		[225]={ key=13, value=90 },
+}, pay_id=1, pay_num=0 },
+}, egg_res_id=24009 },
+		[12]={ item_id=24012, hero_ele_type=0, level_data={
+		[46]={ lv=1, cost_tid_list={{2608,4}}, attr={
+		[136]={ key=11, value=2920 },
+		[137]={ key=12, value=205 },
+		[138]={ key=13, value=9 },
+}, pay_id=1, pay_num=400 },
+		[47]={ lv=2, cost_tid_list={{2608,5}}, attr={
+		[139]={ key=11, value=3002 },
+		[140]={ key=12, value=211 },
+		[141]={ key=13, value=9 },
+}, pay_id=1, pay_num=500 },
+		[48]={ lv=3, cost_tid_list={{2608,5}}, attr={
+		[142]={ key=11, value=3086 },
+		[143]={ key=12, value=218 },
+		[144]={ key=13, value=10 },
+}, pay_id=1, pay_num=600 },
+		[49]={ lv=4, cost_tid_list={{2608,6}}, attr={
+		[145]={ key=11, value=3171 },
+		[146]={ key=12, value=224 },
+		[147]={ key=13, value=11 },
+}, pay_id=1, pay_num=700 },
+		[50]={ lv=5, cost_tid_list={{2608,8}}, attr={
+		[148]={ key=11, value=3256 },
+		[149]={ key=12, value=231 },
+		[150]={ key=13, value=12 },
+}, pay_id=1, pay_num=800 },
+		[51]={ lv=6, cost_tid_list={{2608,10}}, attr={
+		[151]={ key=11, value=3343 },
+		[152]={ key=12, value=237 },
+		[153]={ key=13, value=13 },
+}, pay_id=1, pay_num=900 },
+		[52]={ lv=7, cost_tid_list={{2608,10}}, attr={
+		[154]={ key=11, value=3431 },
+		[155]={ key=12, value=243 },
+		[156]={ key=13, value=14 },
+}, pay_id=1, pay_num=1000 },
+		[53]={ lv=8, cost_tid_list={{2608,12}}, attr={
+		[157]={ key=11, value=3520 },
+		[158]={ key=12, value=250 },
+		[159]={ key=13, value=15 },
+}, pay_id=1, pay_num=1200 },
+		[54]={ lv=9, cost_tid_list={{2608,16}}, attr={
+		[160]={ key=11, value=3610 },
+		[161]={ key=12, value=256 },
+		[162]={ key=13, value=17 },
+}, pay_id=1, pay_num=1600 },
+		[55]={ lv=10, cost_tid_list={{2608,18}}, attr={
+		[163]={ key=11, value=3701 },
+		[164]={ key=12, value=263 },
+		[165]={ key=13, value=18 },
+}, pay_id=1, pay_num=1800 },
+		[56]={ lv=11, cost_tid_list={{2608,22}}, attr={
+		[166]={ key=11, value=3794 },
+		[167]={ key=12, value=270 },
+		[168]={ key=13, value=20 },
+}, pay_id=1, pay_num=2200 },
+		[57]={ lv=12, cost_tid_list={{2608,26}}, attr={
+		[169]={ key=11, value=3887 },
+		[170]={ key=12, value=276 },
+		[171]={ key=13, value=22 },
+}, pay_id=1, pay_num=2600 },
+		[58]={ lv=13, cost_tid_list={{2608,30}}, attr={
+		[172]={ key=11, value=3982 },
+		[173]={ key=12, value=283 },
+		[174]={ key=13, value=24 },
+}, pay_id=1, pay_num=3000 },
+		[59]={ lv=14, cost_tid_list={{2608,36}}, attr={
+		[175]={ key=11, value=4077 },
+		[176]={ key=12, value=290 },
+		[177]={ key=13, value=27 },
+}, pay_id=1, pay_num=3600 },
+		[60]={ lv=15, cost_tid_list={{2608,44}}, attr={
+		[178]={ key=11, value=4174 },
+		[179]={ key=12, value=297 },
+		[180]={ key=13, value=29 },
+}, pay_id=1, pay_num=4400 },
+		[61]={ lv=16, cost_tid_list={{2608,52}}, attr={
+		[181]={ key=11, value=4272 },
+		[182]={ key=12, value=304 },
+		[183]={ key=13, value=32 },
+}, pay_id=1, pay_num=5200 },
+		[62]={ lv=17, cost_tid_list={{2608,62}}, attr={
+		[184]={ key=11, value=4371 },
+		[185]={ key=12, value=311 },
+		[186]={ key=13, value=35 },
+}, pay_id=1, pay_num=6200 },
+		[63]={ lv=18, cost_tid_list={{2608,74}}, attr={
+		[187]={ key=11, value=4471 },
+		[188]={ key=12, value=318 },
+		[189]={ key=13, value=38 },
+}, pay_id=1, pay_num=7400 },
+		[64]={ lv=19, cost_tid_list={{2608,88}}, attr={
+		[190]={ key=11, value=4572 },
+		[191]={ key=12, value=325 },
+		[192]={ key=13, value=41 },
+}, pay_id=1, pay_num=8800 },
+		[65]={ lv=20, cost_tid_list={{2608,108}}, attr={
+		[193]={ key=11, value=4674 },
+		[194]={ key=12, value=332 },
+		[195]={ key=13, value=44 },
+}, pay_id=1, pay_num=10800 },
+		[66]={ lv=21, cost_tid_list={{2608,132}}, attr={
+		[196]={ key=11, value=4780 },
+		[197]={ key=12, value=340 },
+		[198]={ key=13, value=48 },
+}, pay_id=1, pay_num=13200 },
+		[67]={ lv=22, cost_tid_list={{2608,160}}, attr={
+		[199]={ key=11, value=4888 },
+		[200]={ key=12, value=347 },
+		[201]={ key=13, value=52 },
+}, pay_id=1, pay_num=16000 },
+		[68]={ lv=23, cost_tid_list={{2608,196}}, attr={
+		[202]={ key=11, value=5000 },
+		[203]={ key=12, value=355 },
+		[204]={ key=13, value=55 },
+}, pay_id=1, pay_num=19600 },
+		[69]={ lv=24, cost_tid_list={{2608,240}}, attr={
+		[205]={ key=11, value=5116 },
+		[206]={ key=12, value=363 },
+		[207]={ key=13, value=60 },
+}, pay_id=1, pay_num=24000 },
+		[70]={ lv=25, cost_tid_list={{2608,304}}, attr={
+		[208]={ key=11, value=5235 },
+		[209]={ key=12, value=372 },
+		[210]={ key=13, value=64 },
+}, pay_id=1, pay_num=30400 },
+		[71]={ lv=26, cost_tid_list={{2608,384}}, attr={
+		[211]={ key=11, value=5360 },
+		[212]={ key=12, value=381 },
+		[213]={ key=13, value=69 },
+}, pay_id=1, pay_num=38400 },
+		[72]={ lv=27, cost_tid_list={{2608,480}}, attr={
+		[214]={ key=11, value=5492 },
+		[215]={ key=12, value=390 },
+		[216]={ key=13, value=74 },
+}, pay_id=1, pay_num=48000 },
+		[73]={ lv=28, cost_tid_list={{2608,586}}, attr={
+		[217]={ key=11, value=5630 },
+		[218]={ key=12, value=400 },
+		[219]={ key=13, value=79 },
+}, pay_id=1, pay_num=58600 },
+		[74]={ lv=29, cost_tid_list={{2608,736}}, attr={
+		[220]={ key=11, value=5775 },
+		[221]={ key=12, value=410 },
+		[222]={ key=13, value=84 },
+}, pay_id=1, pay_num=73600 },
+		[75]={ lv=30, cost_tid_list={}, attr={
+		[223]={ key=11, value=5927 },
+		[224]={ key=12, value=421 },
+		[225]={ key=13, value=90 },
+}, pay_id=1, pay_num=0 },
+}, egg_res_id=24012 },
+		[15]={ item_id=24015, hero_ele_type=5, level_data={
+		[46]={ lv=1, cost_tid_list={{2608,4}}, attr={
+		[136]={ key=11, value=2920 },
+		[137]={ key=12, value=205 },
+		[138]={ key=13, value=9 },
+}, pay_id=1, pay_num=400 },
+		[47]={ lv=2, cost_tid_list={{2608,5}}, attr={
+		[139]={ key=11, value=3002 },
+		[140]={ key=12, value=211 },
+		[141]={ key=13, value=9 },
+}, pay_id=1, pay_num=500 },
+		[48]={ lv=3, cost_tid_list={{2608,5}}, attr={
+		[142]={ key=11, value=3086 },
+		[143]={ key=12, value=218 },
+		[144]={ key=13, value=10 },
+}, pay_id=1, pay_num=600 },
+		[49]={ lv=4, cost_tid_list={{2608,6}}, attr={
+		[145]={ key=11, value=3171 },
+		[146]={ key=12, value=224 },
+		[147]={ key=13, value=11 },
+}, pay_id=1, pay_num=700 },
+		[50]={ lv=5, cost_tid_list={{2608,8}}, attr={
+		[148]={ key=11, value=3256 },
+		[149]={ key=12, value=231 },
+		[150]={ key=13, value=12 },
+}, pay_id=1, pay_num=800 },
+		[51]={ lv=6, cost_tid_list={{2608,10}}, attr={
+		[151]={ key=11, value=3343 },
+		[152]={ key=12, value=237 },
+		[153]={ key=13, value=13 },
+}, pay_id=1, pay_num=900 },
+		[52]={ lv=7, cost_tid_list={{2608,10}}, attr={
+		[154]={ key=11, value=3431 },
+		[155]={ key=12, value=243 },
+		[156]={ key=13, value=14 },
+}, pay_id=1, pay_num=1000 },
+		[53]={ lv=8, cost_tid_list={{2608,12}}, attr={
+		[157]={ key=11, value=3520 },
+		[158]={ key=12, value=250 },
+		[159]={ key=13, value=15 },
+}, pay_id=1, pay_num=1200 },
+		[54]={ lv=9, cost_tid_list={{2608,16}}, attr={
+		[160]={ key=11, value=3610 },
+		[161]={ key=12, value=256 },
+		[162]={ key=13, value=17 },
+}, pay_id=1, pay_num=1600 },
+		[55]={ lv=10, cost_tid_list={{2608,18}}, attr={
+		[163]={ key=11, value=3701 },
+		[164]={ key=12, value=263 },
+		[165]={ key=13, value=18 },
+}, pay_id=1, pay_num=1800 },
+		[56]={ lv=11, cost_tid_list={{2608,22}}, attr={
+		[166]={ key=11, value=3794 },
+		[167]={ key=12, value=270 },
+		[168]={ key=13, value=20 },
+}, pay_id=1, pay_num=2200 },
+		[57]={ lv=12, cost_tid_list={{2608,26}}, attr={
+		[169]={ key=11, value=3887 },
+		[170]={ key=12, value=276 },
+		[171]={ key=13, value=22 },
+}, pay_id=1, pay_num=2600 },
+		[58]={ lv=13, cost_tid_list={{2608,30}}, attr={
+		[172]={ key=11, value=3982 },
+		[173]={ key=12, value=283 },
+		[174]={ key=13, value=24 },
+}, pay_id=1, pay_num=3000 },
+		[59]={ lv=14, cost_tid_list={{2608,36}}, attr={
+		[175]={ key=11, value=4077 },
+		[176]={ key=12, value=290 },
+		[177]={ key=13, value=27 },
+}, pay_id=1, pay_num=3600 },
+		[60]={ lv=15, cost_tid_list={{2608,44}}, attr={
+		[178]={ key=11, value=4174 },
+		[179]={ key=12, value=297 },
+		[180]={ key=13, value=29 },
+}, pay_id=1, pay_num=4400 },
+		[61]={ lv=16, cost_tid_list={{2608,52}}, attr={
+		[181]={ key=11, value=4272 },
+		[182]={ key=12, value=304 },
+		[183]={ key=13, value=32 },
+}, pay_id=1, pay_num=5200 },
+		[62]={ lv=17, cost_tid_list={{2608,62}}, attr={
+		[184]={ key=11, value=4371 },
+		[185]={ key=12, value=311 },
+		[186]={ key=13, value=35 },
+}, pay_id=1, pay_num=6200 },
+		[63]={ lv=18, cost_tid_list={{2608,74}}, attr={
+		[187]={ key=11, value=4471 },
+		[188]={ key=12, value=318 },
+		[189]={ key=13, value=38 },
+}, pay_id=1, pay_num=7400 },
+		[64]={ lv=19, cost_tid_list={{2608,88}}, attr={
+		[190]={ key=11, value=4572 },
+		[191]={ key=12, value=325 },
+		[192]={ key=13, value=41 },
+}, pay_id=1, pay_num=8800 },
+		[65]={ lv=20, cost_tid_list={{2608,108}}, attr={
+		[193]={ key=11, value=4674 },
+		[194]={ key=12, value=332 },
+		[195]={ key=13, value=44 },
+}, pay_id=1, pay_num=10800 },
+		[66]={ lv=21, cost_tid_list={{2608,132}}, attr={
+		[196]={ key=11, value=4780 },
+		[197]={ key=12, value=340 },
+		[198]={ key=13, value=48 },
+}, pay_id=1, pay_num=13200 },
+		[67]={ lv=22, cost_tid_list={{2608,160}}, attr={
+		[199]={ key=11, value=4888 },
+		[200]={ key=12, value=347 },
+		[201]={ key=13, value=52 },
+}, pay_id=1, pay_num=16000 },
+		[68]={ lv=23, cost_tid_list={{2608,196}}, attr={
+		[202]={ key=11, value=5000 },
+		[203]={ key=12, value=355 },
+		[204]={ key=13, value=55 },
+}, pay_id=1, pay_num=19600 },
+		[69]={ lv=24, cost_tid_list={{2608,240}}, attr={
+		[205]={ key=11, value=5116 },
+		[206]={ key=12, value=363 },
+		[207]={ key=13, value=60 },
+}, pay_id=1, pay_num=24000 },
+		[70]={ lv=25, cost_tid_list={{2608,304}}, attr={
+		[208]={ key=11, value=5235 },
+		[209]={ key=12, value=372 },
+		[210]={ key=13, value=64 },
+}, pay_id=1, pay_num=30400 },
+		[71]={ lv=26, cost_tid_list={{2608,384}}, attr={
+		[211]={ key=11, value=5360 },
+		[212]={ key=12, value=381 },
+		[213]={ key=13, value=69 },
+}, pay_id=1, pay_num=38400 },
+		[72]={ lv=27, cost_tid_list={{2608,480}}, attr={
+		[214]={ key=11, value=5492 },
+		[215]={ key=12, value=390 },
+		[216]={ key=13, value=74 },
+}, pay_id=1, pay_num=48000 },
+		[73]={ lv=28, cost_tid_list={{2608,586}}, attr={
+		[217]={ key=11, value=5630 },
+		[218]={ key=12, value=400 },
+		[219]={ key=13, value=79 },
+}, pay_id=1, pay_num=58600 },
+		[74]={ lv=29, cost_tid_list={{2608,736}}, attr={
+		[220]={ key=11, value=5775 },
+		[221]={ key=12, value=410 },
+		[222]={ key=13, value=84 },
+}, pay_id=1, pay_num=73600 },
+		[75]={ lv=30, cost_tid_list={}, attr={
+		[223]={ key=11, value=5927 },
+		[224]={ key=12, value=421 },
+		[225]={ key=13, value=90 },
+}, pay_id=1, pay_num=0 },
+}, egg_res_id=24015 },
+		[18]={ item_id=24018, hero_ele_type=1, level_data={
+		[46]={ lv=1, cost_tid_list={{2608,4}}, attr={
+		[136]={ key=11, value=2920 },
+		[137]={ key=12, value=205 },
+		[138]={ key=13, value=9 },
+}, pay_id=1, pay_num=400 },
+		[47]={ lv=2, cost_tid_list={{2608,5}}, attr={
+		[139]={ key=11, value=3002 },
+		[140]={ key=12, value=211 },
+		[141]={ key=13, value=9 },
+}, pay_id=1, pay_num=500 },
+		[48]={ lv=3, cost_tid_list={{2608,5}}, attr={
+		[142]={ key=11, value=3086 },
+		[143]={ key=12, value=218 },
+		[144]={ key=13, value=10 },
+}, pay_id=1, pay_num=600 },
+		[49]={ lv=4, cost_tid_list={{2608,6}}, attr={
+		[145]={ key=11, value=3171 },
+		[146]={ key=12, value=224 },
+		[147]={ key=13, value=11 },
+}, pay_id=1, pay_num=700 },
+		[50]={ lv=5, cost_tid_list={{2608,8}}, attr={
+		[148]={ key=11, value=3256 },
+		[149]={ key=12, value=231 },
+		[150]={ key=13, value=12 },
+}, pay_id=1, pay_num=800 },
+		[51]={ lv=6, cost_tid_list={{2608,10}}, attr={
+		[151]={ key=11, value=3343 },
+		[152]={ key=12, value=237 },
+		[153]={ key=13, value=13 },
+}, pay_id=1, pay_num=900 },
+		[52]={ lv=7, cost_tid_list={{2608,10}}, attr={
+		[154]={ key=11, value=3431 },
+		[155]={ key=12, value=243 },
+		[156]={ key=13, value=14 },
+}, pay_id=1, pay_num=1000 },
+		[53]={ lv=8, cost_tid_list={{2608,12}}, attr={
+		[157]={ key=11, value=3520 },
+		[158]={ key=12, value=250 },
+		[159]={ key=13, value=15 },
+}, pay_id=1, pay_num=1200 },
+		[54]={ lv=9, cost_tid_list={{2608,16}}, attr={
+		[160]={ key=11, value=3610 },
+		[161]={ key=12, value=256 },
+		[162]={ key=13, value=17 },
+}, pay_id=1, pay_num=1600 },
+		[55]={ lv=10, cost_tid_list={{2608,18}}, attr={
+		[163]={ key=11, value=3701 },
+		[164]={ key=12, value=263 },
+		[165]={ key=13, value=18 },
+}, pay_id=1, pay_num=1800 },
+		[56]={ lv=11, cost_tid_list={{2608,22}}, attr={
+		[166]={ key=11, value=3794 },
+		[167]={ key=12, value=270 },
+		[168]={ key=13, value=20 },
+}, pay_id=1, pay_num=2200 },
+		[57]={ lv=12, cost_tid_list={{2608,26}}, attr={
+		[169]={ key=11, value=3887 },
+		[170]={ key=12, value=276 },
+		[171]={ key=13, value=22 },
+}, pay_id=1, pay_num=2600 },
+		[58]={ lv=13, cost_tid_list={{2608,30}}, attr={
+		[172]={ key=11, value=3982 },
+		[173]={ key=12, value=283 },
+		[174]={ key=13, value=24 },
+}, pay_id=1, pay_num=3000 },
+		[59]={ lv=14, cost_tid_list={{2608,36}}, attr={
+		[175]={ key=11, value=4077 },
+		[176]={ key=12, value=290 },
+		[177]={ key=13, value=27 },
+}, pay_id=1, pay_num=3600 },
+		[60]={ lv=15, cost_tid_list={{2608,44}}, attr={
+		[178]={ key=11, value=4174 },
+		[179]={ key=12, value=297 },
+		[180]={ key=13, value=29 },
+}, pay_id=1, pay_num=4400 },
+		[61]={ lv=16, cost_tid_list={{2608,52}}, attr={
+		[181]={ key=11, value=4272 },
+		[182]={ key=12, value=304 },
+		[183]={ key=13, value=32 },
+}, pay_id=1, pay_num=5200 },
+		[62]={ lv=17, cost_tid_list={{2608,62}}, attr={
+		[184]={ key=11, value=4371 },
+		[185]={ key=12, value=311 },
+		[186]={ key=13, value=35 },
+}, pay_id=1, pay_num=6200 },
+		[63]={ lv=18, cost_tid_list={{2608,74}}, attr={
+		[187]={ key=11, value=4471 },
+		[188]={ key=12, value=318 },
+		[189]={ key=13, value=38 },
+}, pay_id=1, pay_num=7400 },
+		[64]={ lv=19, cost_tid_list={{2608,88}}, attr={
+		[190]={ key=11, value=4572 },
+		[191]={ key=12, value=325 },
+		[192]={ key=13, value=41 },
+}, pay_id=1, pay_num=8800 },
+		[65]={ lv=20, cost_tid_list={{2608,108}}, attr={
+		[193]={ key=11, value=4674 },
+		[194]={ key=12, value=332 },
+		[195]={ key=13, value=44 },
+}, pay_id=1, pay_num=10800 },
+		[66]={ lv=21, cost_tid_list={{2608,132}}, attr={
+		[196]={ key=11, value=4780 },
+		[197]={ key=12, value=340 },
+		[198]={ key=13, value=48 },
+}, pay_id=1, pay_num=13200 },
+		[67]={ lv=22, cost_tid_list={{2608,160}}, attr={
+		[199]={ key=11, value=4888 },
+		[200]={ key=12, value=347 },
+		[201]={ key=13, value=52 },
+}, pay_id=1, pay_num=16000 },
+		[68]={ lv=23, cost_tid_list={{2608,196}}, attr={
+		[202]={ key=11, value=5000 },
+		[203]={ key=12, value=355 },
+		[204]={ key=13, value=55 },
+}, pay_id=1, pay_num=19600 },
+		[69]={ lv=24, cost_tid_list={{2608,240}}, attr={
+		[205]={ key=11, value=5116 },
+		[206]={ key=12, value=363 },
+		[207]={ key=13, value=60 },
+}, pay_id=1, pay_num=24000 },
+		[70]={ lv=25, cost_tid_list={{2608,304}}, attr={
+		[208]={ key=11, value=5235 },
+		[209]={ key=12, value=372 },
+		[210]={ key=13, value=64 },
+}, pay_id=1, pay_num=30400 },
+		[71]={ lv=26, cost_tid_list={{2608,384}}, attr={
+		[211]={ key=11, value=5360 },
+		[212]={ key=12, value=381 },
+		[213]={ key=13, value=69 },
+}, pay_id=1, pay_num=38400 },
+		[72]={ lv=27, cost_tid_list={{2608,480}}, attr={
+		[214]={ key=11, value=5492 },
+		[215]={ key=12, value=390 },
+		[216]={ key=13, value=74 },
+}, pay_id=1, pay_num=48000 },
+		[73]={ lv=28, cost_tid_list={{2608,586}}, attr={
+		[217]={ key=11, value=5630 },
+		[218]={ key=12, value=400 },
+		[219]={ key=13, value=79 },
+}, pay_id=1, pay_num=58600 },
+		[74]={ lv=29, cost_tid_list={{2608,736}}, attr={
+		[220]={ key=11, value=5775 },
+		[221]={ key=12, value=410 },
+		[222]={ key=13, value=84 },
+}, pay_id=1, pay_num=73600 },
+		[75]={ lv=30, cost_tid_list={}, attr={
+		[223]={ key=11, value=5927 },
+		[224]={ key=12, value=421 },
+		[225]={ key=13, value=90 },
+}, pay_id=1, pay_num=0 },
+}, egg_res_id=24018 },
+}
+},
+	[2]={ ele_type_data={
+		[2]={ item_id=24002, hero_ele_type=2, level_data={
+		[21]={ lv=1, cost_tid_list={{2608,4}}, attr={
+		[61]={ key=11, value=1636 },
+		[62]={ key=12, value=115 },
+		[63]={ key=13, value=6 },
+}, pay_id=1, pay_num=400 },
+		[22]={ lv=2, cost_tid_list={{2608,5}}, attr={
+		[64]={ key=11, value=1706 },
+		[65]={ key=12, value=121 },
+		[66]={ key=13, value=6 },
+}, pay_id=1, pay_num=500 },
+		[23]={ lv=3, cost_tid_list={{2608,5}}, attr={
+		[67]={ key=11, value=1778 },
+		[68]={ key=12, value=127 },
+		[69]={ key=13, value=7 },
+}, pay_id=1, pay_num=600 },
+		[24]={ lv=4, cost_tid_list={{2608,6}}, attr={
+		[70]={ key=11, value=1850 },
+		[71]={ key=12, value=132 },
+		[72]={ key=13, value=8 },
+}, pay_id=1, pay_num=700 },
+		[25]={ lv=5, cost_tid_list={{2608,8}}, attr={
+		[73]={ key=11, value=1922 },
+		[74]={ key=12, value=138 },
+		[75]={ key=13, value=9 },
+}, pay_id=1, pay_num=800 },
+		[26]={ lv=6, cost_tid_list={{2608,10}}, attr={
+		[76]={ key=11, value=1996 },
+		[77]={ key=12, value=143 },
+		[78]={ key=13, value=10 },
+}, pay_id=1, pay_num=900 },
+		[27]={ lv=7, cost_tid_list={{2608,10}}, attr={
+		[79]={ key=11, value=2071 },
+		[80]={ key=12, value=148 },
+		[81]={ key=13, value=11 },
+}, pay_id=1, pay_num=1000 },
+		[28]={ lv=8, cost_tid_list={{2608,12}}, attr={
+		[82]={ key=11, value=2146 },
+		[83]={ key=12, value=154 },
+		[84]={ key=13, value=12 },
+}, pay_id=1, pay_num=1200 },
+		[29]={ lv=9, cost_tid_list={{2608,16}}, attr={
+		[85]={ key=11, value=2223 },
+		[86]={ key=12, value=159 },
+		[87]={ key=13, value=13 },
+}, pay_id=1, pay_num=1600 },
+		[30]={ lv=10, cost_tid_list={{2608,18}}, attr={
+		[88]={ key=11, value=2300 },
+		[89]={ key=12, value=165 },
+		[90]={ key=13, value=14 },
+}, pay_id=1, pay_num=1800 },
+		[31]={ lv=11, cost_tid_list={{2608,22}}, attr={
+		[91]={ key=11, value=2379 },
+		[92]={ key=12, value=171 },
+		[93]={ key=13, value=16 },
+}, pay_id=1, pay_num=2200 },
+		[32]={ lv=12, cost_tid_list={{2608,26}}, attr={
+		[94]={ key=11, value=2458 },
+		[95]={ key=12, value=176 },
+		[96]={ key=13, value=18 },
+}, pay_id=1, pay_num=2600 },
+		[33]={ lv=13, cost_tid_list={{2608,30}}, attr={
+		[97]={ key=11, value=2539 },
+		[98]={ key=12, value=182 },
+		[99]={ key=13, value=19 },
+}, pay_id=1, pay_num=3000 },
+		[34]={ lv=14, cost_tid_list={{2608,36}}, attr={
+		[100]={ key=11, value=2620 },
+		[101]={ key=12, value=188 },
+		[102]={ key=13, value=22 },
+}, pay_id=1, pay_num=3600 },
+		[35]={ lv=15, cost_tid_list={{2608,44}}, attr={
+		[103]={ key=11, value=2702 },
+		[104]={ key=12, value=194 },
+		[105]={ key=13, value=23 },
+}, pay_id=1, pay_num=4400 },
+		[36]={ lv=16, cost_tid_list={{2608,52}}, attr={
+		[106]={ key=11, value=2786 },
+		[107]={ key=12, value=200 },
+		[108]={ key=13, value=26 },
+}, pay_id=1, pay_num=5200 },
+		[37]={ lv=17, cost_tid_list={{2608,62}}, attr={
+		[109]={ key=11, value=2870 },
+		[110]={ key=12, value=206 },
+		[111]={ key=13, value=29 },
+}, pay_id=1, pay_num=6200 },
+		[38]={ lv=18, cost_tid_list={{2608,74}}, attr={
+		[112]={ key=11, value=2955 },
+		[113]={ key=12, value=212 },
+		[114]={ key=13, value=31 },
+}, pay_id=1, pay_num=7400 },
+		[39]={ lv=19, cost_tid_list={{2608,88}}, attr={
+		[115]={ key=11, value=3041 },
+		[116]={ key=12, value=217 },
+		[117]={ key=13, value=34 },
+}, pay_id=1, pay_num=8800 },
+		[40]={ lv=20, cost_tid_list={{2608,108}}, attr={
+		[118]={ key=11, value=3127 },
+		[119]={ key=12, value=223 },
+		[120]={ key=13, value=36 },
+}, pay_id=1, pay_num=10800 },
+		[41]={ lv=21, cost_tid_list={{2608,132}}, attr={
+		[121]={ key=11, value=3217 },
+		[122]={ key=12, value=230 },
+		[123]={ key=13, value=40 },
+}, pay_id=1, pay_num=13200 },
+		[42]={ lv=22, cost_tid_list={{2608,160}}, attr={
+		[124]={ key=11, value=3309 },
+		[125]={ key=12, value=236 },
+		[126]={ key=13, value=43 },
+}, pay_id=1, pay_num=16000 },
+		[43]={ lv=23, cost_tid_list={{2608,196}}, attr={
+		[127]={ key=11, value=3404 },
+		[128]={ key=12, value=243 },
+		[129]={ key=13, value=46 },
+}, pay_id=1, pay_num=19600 },
+		[44]={ lv=24, cost_tid_list={{2608,240}}, attr={
+		[130]={ key=11, value=3503 },
+		[131]={ key=12, value=250 },
+		[132]={ key=13, value=50 },
+}, pay_id=1, pay_num=24000 },
+		[45]={ lv=25, cost_tid_list={}, attr={
+		[133]={ key=11, value=3604 },
+		[134]={ key=12, value=257 },
+		[135]={ key=13, value=53 },
+}, pay_id=1, pay_num=0 },
+}, egg_res_id=24002 },
+		[5]={ item_id=24005, hero_ele_type=3, level_data={
+		[21]={ lv=1, cost_tid_list={{2608,4}}, attr={
+		[61]={ key=11, value=1636 },
+		[62]={ key=12, value=115 },
+		[63]={ key=13, value=6 },
+}, pay_id=1, pay_num=400 },
+		[22]={ lv=2, cost_tid_list={{2608,5}}, attr={
+		[64]={ key=11, value=1706 },
+		[65]={ key=12, value=121 },
+		[66]={ key=13, value=6 },
+}, pay_id=1, pay_num=500 },
+		[23]={ lv=3, cost_tid_list={{2608,5}}, attr={
+		[67]={ key=11, value=1778 },
+		[68]={ key=12, value=127 },
+		[69]={ key=13, value=7 },
+}, pay_id=1, pay_num=600 },
+		[24]={ lv=4, cost_tid_list={{2608,6}}, attr={
+		[70]={ key=11, value=1850 },
+		[71]={ key=12, value=132 },
+		[72]={ key=13, value=8 },
+}, pay_id=1, pay_num=700 },
+		[25]={ lv=5, cost_tid_list={{2608,8}}, attr={
+		[73]={ key=11, value=1922 },
+		[74]={ key=12, value=138 },
+		[75]={ key=13, value=9 },
+}, pay_id=1, pay_num=800 },
+		[26]={ lv=6, cost_tid_list={{2608,10}}, attr={
+		[76]={ key=11, value=1996 },
+		[77]={ key=12, value=143 },
+		[78]={ key=13, value=10 },
+}, pay_id=1, pay_num=900 },
+		[27]={ lv=7, cost_tid_list={{2608,10}}, attr={
+		[79]={ key=11, value=2071 },
+		[80]={ key=12, value=148 },
+		[81]={ key=13, value=11 },
+}, pay_id=1, pay_num=1000 },
+		[28]={ lv=8, cost_tid_list={{2608,12}}, attr={
+		[82]={ key=11, value=2146 },
+		[83]={ key=12, value=154 },
+		[84]={ key=13, value=12 },
+}, pay_id=1, pay_num=1200 },
+		[29]={ lv=9, cost_tid_list={{2608,16}}, attr={
+		[85]={ key=11, value=2223 },
+		[86]={ key=12, value=159 },
+		[87]={ key=13, value=13 },
+}, pay_id=1, pay_num=1600 },
+		[30]={ lv=10, cost_tid_list={{2608,18}}, attr={
+		[88]={ key=11, value=2300 },
+		[89]={ key=12, value=165 },
+		[90]={ key=13, value=14 },
+}, pay_id=1, pay_num=1800 },
+		[31]={ lv=11, cost_tid_list={{2608,22}}, attr={
+		[91]={ key=11, value=2379 },
+		[92]={ key=12, value=171 },
+		[93]={ key=13, value=16 },
+}, pay_id=1, pay_num=2200 },
+		[32]={ lv=12, cost_tid_list={{2608,26}}, attr={
+		[94]={ key=11, value=2458 },
+		[95]={ key=12, value=176 },
+		[96]={ key=13, value=18 },
+}, pay_id=1, pay_num=2600 },
+		[33]={ lv=13, cost_tid_list={{2608,30}}, attr={
+		[97]={ key=11, value=2539 },
+		[98]={ key=12, value=182 },
+		[99]={ key=13, value=19 },
+}, pay_id=1, pay_num=3000 },
+		[34]={ lv=14, cost_tid_list={{2608,36}}, attr={
+		[100]={ key=11, value=2620 },
+		[101]={ key=12, value=188 },
+		[102]={ key=13, value=22 },
+}, pay_id=1, pay_num=3600 },
+		[35]={ lv=15, cost_tid_list={{2608,44}}, attr={
+		[103]={ key=11, value=2702 },
+		[104]={ key=12, value=194 },
+		[105]={ key=13, value=23 },
+}, pay_id=1, pay_num=4400 },
+		[36]={ lv=16, cost_tid_list={{2608,52}}, attr={
+		[106]={ key=11, value=2786 },
+		[107]={ key=12, value=200 },
+		[108]={ key=13, value=26 },
+}, pay_id=1, pay_num=5200 },
+		[37]={ lv=17, cost_tid_list={{2608,62}}, attr={
+		[109]={ key=11, value=2870 },
+		[110]={ key=12, value=206 },
+		[111]={ key=13, value=29 },
+}, pay_id=1, pay_num=6200 },
+		[38]={ lv=18, cost_tid_list={{2608,74}}, attr={
+		[112]={ key=11, value=2955 },
+		[113]={ key=12, value=212 },
+		[114]={ key=13, value=31 },
+}, pay_id=1, pay_num=7400 },
+		[39]={ lv=19, cost_tid_list={{2608,88}}, attr={
+		[115]={ key=11, value=3041 },
+		[116]={ key=12, value=217 },
+		[117]={ key=13, value=34 },
+}, pay_id=1, pay_num=8800 },
+		[40]={ lv=20, cost_tid_list={{2608,108}}, attr={
+		[118]={ key=11, value=3127 },
+		[119]={ key=12, value=223 },
+		[120]={ key=13, value=36 },
+}, pay_id=1, pay_num=10800 },
+		[41]={ lv=21, cost_tid_list={{2608,132}}, attr={
+		[121]={ key=11, value=3217 },
+		[122]={ key=12, value=230 },
+		[123]={ key=13, value=40 },
+}, pay_id=1, pay_num=13200 },
+		[42]={ lv=22, cost_tid_list={{2608,160}}, attr={
+		[124]={ key=11, value=3309 },
+		[125]={ key=12, value=236 },
+		[126]={ key=13, value=43 },
+}, pay_id=1, pay_num=16000 },
+		[43]={ lv=23, cost_tid_list={{2608,196}}, attr={
+		[127]={ key=11, value=3404 },
+		[128]={ key=12, value=243 },
+		[129]={ key=13, value=46 },
+}, pay_id=1, pay_num=19600 },
+		[44]={ lv=24, cost_tid_list={{2608,240}}, attr={
+		[130]={ key=11, value=3503 },
+		[131]={ key=12, value=250 },
+		[132]={ key=13, value=50 },
+}, pay_id=1, pay_num=24000 },
+		[45]={ lv=25, cost_tid_list={}, attr={
+		[133]={ key=11, value=3604 },
+		[134]={ key=12, value=257 },
+		[135]={ key=13, value=53 },
+}, pay_id=1, pay_num=0 },
+}, egg_res_id=24005 },
+		[8]={ item_id=24008, hero_ele_type=4, level_data={
+		[21]={ lv=1, cost_tid_list={{2608,4}}, attr={
+		[61]={ key=11, value=1636 },
+		[62]={ key=12, value=115 },
+		[63]={ key=13, value=6 },
+}, pay_id=1, pay_num=400 },
+		[22]={ lv=2, cost_tid_list={{2608,5}}, attr={
+		[64]={ key=11, value=1706 },
+		[65]={ key=12, value=121 },
+		[66]={ key=13, value=6 },
+}, pay_id=1, pay_num=500 },
+		[23]={ lv=3, cost_tid_list={{2608,5}}, attr={
+		[67]={ key=11, value=1778 },
+		[68]={ key=12, value=127 },
+		[69]={ key=13, value=7 },
+}, pay_id=1, pay_num=600 },
+		[24]={ lv=4, cost_tid_list={{2608,6}}, attr={
+		[70]={ key=11, value=1850 },
+		[71]={ key=12, value=132 },
+		[72]={ key=13, value=8 },
+}, pay_id=1, pay_num=700 },
+		[25]={ lv=5, cost_tid_list={{2608,8}}, attr={
+		[73]={ key=11, value=1922 },
+		[74]={ key=12, value=138 },
+		[75]={ key=13, value=9 },
+}, pay_id=1, pay_num=800 },
+		[26]={ lv=6, cost_tid_list={{2608,10}}, attr={
+		[76]={ key=11, value=1996 },
+		[77]={ key=12, value=143 },
+		[78]={ key=13, value=10 },
+}, pay_id=1, pay_num=900 },
+		[27]={ lv=7, cost_tid_list={{2608,10}}, attr={
+		[79]={ key=11, value=2071 },
+		[80]={ key=12, value=148 },
+		[81]={ key=13, value=11 },
+}, pay_id=1, pay_num=1000 },
+		[28]={ lv=8, cost_tid_list={{2608,12}}, attr={
+		[82]={ key=11, value=2146 },
+		[83]={ key=12, value=154 },
+		[84]={ key=13, value=12 },
+}, pay_id=1, pay_num=1200 },
+		[29]={ lv=9, cost_tid_list={{2608,16}}, attr={
+		[85]={ key=11, value=2223 },
+		[86]={ key=12, value=159 },
+		[87]={ key=13, value=13 },
+}, pay_id=1, pay_num=1600 },
+		[30]={ lv=10, cost_tid_list={{2608,18}}, attr={
+		[88]={ key=11, value=2300 },
+		[89]={ key=12, value=165 },
+		[90]={ key=13, value=14 },
+}, pay_id=1, pay_num=1800 },
+		[31]={ lv=11, cost_tid_list={{2608,22}}, attr={
+		[91]={ key=11, value=2379 },
+		[92]={ key=12, value=171 },
+		[93]={ key=13, value=16 },
+}, pay_id=1, pay_num=2200 },
+		[32]={ lv=12, cost_tid_list={{2608,26}}, attr={
+		[94]={ key=11, value=2458 },
+		[95]={ key=12, value=176 },
+		[96]={ key=13, value=18 },
+}, pay_id=1, pay_num=2600 },
+		[33]={ lv=13, cost_tid_list={{2608,30}}, attr={
+		[97]={ key=11, value=2539 },
+		[98]={ key=12, value=182 },
+		[99]={ key=13, value=19 },
+}, pay_id=1, pay_num=3000 },
+		[34]={ lv=14, cost_tid_list={{2608,36}}, attr={
+		[100]={ key=11, value=2620 },
+		[101]={ key=12, value=188 },
+		[102]={ key=13, value=22 },
+}, pay_id=1, pay_num=3600 },
+		[35]={ lv=15, cost_tid_list={{2608,44}}, attr={
+		[103]={ key=11, value=2702 },
+		[104]={ key=12, value=194 },
+		[105]={ key=13, value=23 },
+}, pay_id=1, pay_num=4400 },
+		[36]={ lv=16, cost_tid_list={{2608,52}}, attr={
+		[106]={ key=11, value=2786 },
+		[107]={ key=12, value=200 },
+		[108]={ key=13, value=26 },
+}, pay_id=1, pay_num=5200 },
+		[37]={ lv=17, cost_tid_list={{2608,62}}, attr={
+		[109]={ key=11, value=2870 },
+		[110]={ key=12, value=206 },
+		[111]={ key=13, value=29 },
+}, pay_id=1, pay_num=6200 },
+		[38]={ lv=18, cost_tid_list={{2608,74}}, attr={
+		[112]={ key=11, value=2955 },
+		[113]={ key=12, value=212 },
+		[114]={ key=13, value=31 },
+}, pay_id=1, pay_num=7400 },
+		[39]={ lv=19, cost_tid_list={{2608,88}}, attr={
+		[115]={ key=11, value=3041 },
+		[116]={ key=12, value=217 },
+		[117]={ key=13, value=34 },
+}, pay_id=1, pay_num=8800 },
+		[40]={ lv=20, cost_tid_list={{2608,108}}, attr={
+		[118]={ key=11, value=3127 },
+		[119]={ key=12, value=223 },
+		[120]={ key=13, value=36 },
+}, pay_id=1, pay_num=10800 },
+		[41]={ lv=21, cost_tid_list={{2608,132}}, attr={
+		[121]={ key=11, value=3217 },
+		[122]={ key=12, value=230 },
+		[123]={ key=13, value=40 },
+}, pay_id=1, pay_num=13200 },
+		[42]={ lv=22, cost_tid_list={{2608,160}}, attr={
+		[124]={ key=11, value=3309 },
+		[125]={ key=12, value=236 },
+		[126]={ key=13, value=43 },
+}, pay_id=1, pay_num=16000 },
+		[43]={ lv=23, cost_tid_list={{2608,196}}, attr={
+		[127]={ key=11, value=3404 },
+		[128]={ key=12, value=243 },
+		[129]={ key=13, value=46 },
+}, pay_id=1, pay_num=19600 },
+		[44]={ lv=24, cost_tid_list={{2608,240}}, attr={
+		[130]={ key=11, value=3503 },
+		[131]={ key=12, value=250 },
+		[132]={ key=13, value=50 },
+}, pay_id=1, pay_num=24000 },
+		[45]={ lv=25, cost_tid_list={}, attr={
+		[133]={ key=11, value=3604 },
+		[134]={ key=12, value=257 },
+		[135]={ key=13, value=53 },
+}, pay_id=1, pay_num=0 },
+}, egg_res_id=24008 },
+		[11]={ item_id=24011, hero_ele_type=0, level_data={
+		[21]={ lv=1, cost_tid_list={{2608,4}}, attr={
+		[61]={ key=11, value=1636 },
+		[62]={ key=12, value=115 },
+		[63]={ key=13, value=6 },
+}, pay_id=1, pay_num=400 },
+		[22]={ lv=2, cost_tid_list={{2608,5}}, attr={
+		[64]={ key=11, value=1706 },
+		[65]={ key=12, value=121 },
+		[66]={ key=13, value=6 },
+}, pay_id=1, pay_num=500 },
+		[23]={ lv=3, cost_tid_list={{2608,5}}, attr={
+		[67]={ key=11, value=1778 },
+		[68]={ key=12, value=127 },
+		[69]={ key=13, value=7 },
+}, pay_id=1, pay_num=600 },
+		[24]={ lv=4, cost_tid_list={{2608,6}}, attr={
+		[70]={ key=11, value=1850 },
+		[71]={ key=12, value=132 },
+		[72]={ key=13, value=8 },
+}, pay_id=1, pay_num=700 },
+		[25]={ lv=5, cost_tid_list={{2608,8}}, attr={
+		[73]={ key=11, value=1922 },
+		[74]={ key=12, value=138 },
+		[75]={ key=13, value=9 },
+}, pay_id=1, pay_num=800 },
+		[26]={ lv=6, cost_tid_list={{2608,10}}, attr={
+		[76]={ key=11, value=1996 },
+		[77]={ key=12, value=143 },
+		[78]={ key=13, value=10 },
+}, pay_id=1, pay_num=900 },
+		[27]={ lv=7, cost_tid_list={{2608,10}}, attr={
+		[79]={ key=11, value=2071 },
+		[80]={ key=12, value=148 },
+		[81]={ key=13, value=11 },
+}, pay_id=1, pay_num=1000 },
+		[28]={ lv=8, cost_tid_list={{2608,12}}, attr={
+		[82]={ key=11, value=2146 },
+		[83]={ key=12, value=154 },
+		[84]={ key=13, value=12 },
+}, pay_id=1, pay_num=1200 },
+		[29]={ lv=9, cost_tid_list={{2608,16}}, attr={
+		[85]={ key=11, value=2223 },
+		[86]={ key=12, value=159 },
+		[87]={ key=13, value=13 },
+}, pay_id=1, pay_num=1600 },
+		[30]={ lv=10, cost_tid_list={{2608,18}}, attr={
+		[88]={ key=11, value=2300 },
+		[89]={ key=12, value=165 },
+		[90]={ key=13, value=14 },
+}, pay_id=1, pay_num=1800 },
+		[31]={ lv=11, cost_tid_list={{2608,22}}, attr={
+		[91]={ key=11, value=2379 },
+		[92]={ key=12, value=171 },
+		[93]={ key=13, value=16 },
+}, pay_id=1, pay_num=2200 },
+		[32]={ lv=12, cost_tid_list={{2608,26}}, attr={
+		[94]={ key=11, value=2458 },
+		[95]={ key=12, value=176 },
+		[96]={ key=13, value=18 },
+}, pay_id=1, pay_num=2600 },
+		[33]={ lv=13, cost_tid_list={{2608,30}}, attr={
+		[97]={ key=11, value=2539 },
+		[98]={ key=12, value=182 },
+		[99]={ key=13, value=19 },
+}, pay_id=1, pay_num=3000 },
+		[34]={ lv=14, cost_tid_list={{2608,36}}, attr={
+		[100]={ key=11, value=2620 },
+		[101]={ key=12, value=188 },
+		[102]={ key=13, value=22 },
+}, pay_id=1, pay_num=3600 },
+		[35]={ lv=15, cost_tid_list={{2608,44}}, attr={
+		[103]={ key=11, value=2702 },
+		[104]={ key=12, value=194 },
+		[105]={ key=13, value=23 },
+}, pay_id=1, pay_num=4400 },
+		[36]={ lv=16, cost_tid_list={{2608,52}}, attr={
+		[106]={ key=11, value=2786 },
+		[107]={ key=12, value=200 },
+		[108]={ key=13, value=26 },
+}, pay_id=1, pay_num=5200 },
+		[37]={ lv=17, cost_tid_list={{2608,62}}, attr={
+		[109]={ key=11, value=2870 },
+		[110]={ key=12, value=206 },
+		[111]={ key=13, value=29 },
+}, pay_id=1, pay_num=6200 },
+		[38]={ lv=18, cost_tid_list={{2608,74}}, attr={
+		[112]={ key=11, value=2955 },
+		[113]={ key=12, value=212 },
+		[114]={ key=13, value=31 },
+}, pay_id=1, pay_num=7400 },
+		[39]={ lv=19, cost_tid_list={{2608,88}}, attr={
+		[115]={ key=11, value=3041 },
+		[116]={ key=12, value=217 },
+		[117]={ key=13, value=34 },
+}, pay_id=1, pay_num=8800 },
+		[40]={ lv=20, cost_tid_list={{2608,108}}, attr={
+		[118]={ key=11, value=3127 },
+		[119]={ key=12, value=223 },
+		[120]={ key=13, value=36 },
+}, pay_id=1, pay_num=10800 },
+		[41]={ lv=21, cost_tid_list={{2608,132}}, attr={
+		[121]={ key=11, value=3217 },
+		[122]={ key=12, value=230 },
+		[123]={ key=13, value=40 },
+}, pay_id=1, pay_num=13200 },
+		[42]={ lv=22, cost_tid_list={{2608,160}}, attr={
+		[124]={ key=11, value=3309 },
+		[125]={ key=12, value=236 },
+		[126]={ key=13, value=43 },
+}, pay_id=1, pay_num=16000 },
+		[43]={ lv=23, cost_tid_list={{2608,196}}, attr={
+		[127]={ key=11, value=3404 },
+		[128]={ key=12, value=243 },
+		[129]={ key=13, value=46 },
+}, pay_id=1, pay_num=19600 },
+		[44]={ lv=24, cost_tid_list={{2608,240}}, attr={
+		[130]={ key=11, value=3503 },
+		[131]={ key=12, value=250 },
+		[132]={ key=13, value=50 },
+}, pay_id=1, pay_num=24000 },
+		[45]={ lv=25, cost_tid_list={}, attr={
+		[133]={ key=11, value=3604 },
+		[134]={ key=12, value=257 },
+		[135]={ key=13, value=53 },
+}, pay_id=1, pay_num=0 },
+}, egg_res_id=24011 },
+		[14]={ item_id=24014, hero_ele_type=5, level_data={
+		[21]={ lv=1, cost_tid_list={{2608,4}}, attr={
+		[61]={ key=11, value=1636 },
+		[62]={ key=12, value=115 },
+		[63]={ key=13, value=6 },
+}, pay_id=1, pay_num=400 },
+		[22]={ lv=2, cost_tid_list={{2608,5}}, attr={
+		[64]={ key=11, value=1706 },
+		[65]={ key=12, value=121 },
+		[66]={ key=13, value=6 },
+}, pay_id=1, pay_num=500 },
+		[23]={ lv=3, cost_tid_list={{2608,5}}, attr={
+		[67]={ key=11, value=1778 },
+		[68]={ key=12, value=127 },
+		[69]={ key=13, value=7 },
+}, pay_id=1, pay_num=600 },
+		[24]={ lv=4, cost_tid_list={{2608,6}}, attr={
+		[70]={ key=11, value=1850 },
+		[71]={ key=12, value=132 },
+		[72]={ key=13, value=8 },
+}, pay_id=1, pay_num=700 },
+		[25]={ lv=5, cost_tid_list={{2608,8}}, attr={
+		[73]={ key=11, value=1922 },
+		[74]={ key=12, value=138 },
+		[75]={ key=13, value=9 },
+}, pay_id=1, pay_num=800 },
+		[26]={ lv=6, cost_tid_list={{2608,10}}, attr={
+		[76]={ key=11, value=1996 },
+		[77]={ key=12, value=143 },
+		[78]={ key=13, value=10 },
+}, pay_id=1, pay_num=900 },
+		[27]={ lv=7, cost_tid_list={{2608,10}}, attr={
+		[79]={ key=11, value=2071 },
+		[80]={ key=12, value=148 },
+		[81]={ key=13, value=11 },
+}, pay_id=1, pay_num=1000 },
+		[28]={ lv=8, cost_tid_list={{2608,12}}, attr={
+		[82]={ key=11, value=2146 },
+		[83]={ key=12, value=154 },
+		[84]={ key=13, value=12 },
+}, pay_id=1, pay_num=1200 },
+		[29]={ lv=9, cost_tid_list={{2608,16}}, attr={
+		[85]={ key=11, value=2223 },
+		[86]={ key=12, value=159 },
+		[87]={ key=13, value=13 },
+}, pay_id=1, pay_num=1600 },
+		[30]={ lv=10, cost_tid_list={{2608,18}}, attr={
+		[88]={ key=11, value=2300 },
+		[89]={ key=12, value=165 },
+		[90]={ key=13, value=14 },
+}, pay_id=1, pay_num=1800 },
+		[31]={ lv=11, cost_tid_list={{2608,22}}, attr={
+		[91]={ key=11, value=2379 },
+		[92]={ key=12, value=171 },
+		[93]={ key=13, value=16 },
+}, pay_id=1, pay_num=2200 },
+		[32]={ lv=12, cost_tid_list={{2608,26}}, attr={
+		[94]={ key=11, value=2458 },
+		[95]={ key=12, value=176 },
+		[96]={ key=13, value=18 },
+}, pay_id=1, pay_num=2600 },
+		[33]={ lv=13, cost_tid_list={{2608,30}}, attr={
+		[97]={ key=11, value=2539 },
+		[98]={ key=12, value=182 },
+		[99]={ key=13, value=19 },
+}, pay_id=1, pay_num=3000 },
+		[34]={ lv=14, cost_tid_list={{2608,36}}, attr={
+		[100]={ key=11, value=2620 },
+		[101]={ key=12, value=188 },
+		[102]={ key=13, value=22 },
+}, pay_id=1, pay_num=3600 },
+		[35]={ lv=15, cost_tid_list={{2608,44}}, attr={
+		[103]={ key=11, value=2702 },
+		[104]={ key=12, value=194 },
+		[105]={ key=13, value=23 },
+}, pay_id=1, pay_num=4400 },
+		[36]={ lv=16, cost_tid_list={{2608,52}}, attr={
+		[106]={ key=11, value=2786 },
+		[107]={ key=12, value=200 },
+		[108]={ key=13, value=26 },
+}, pay_id=1, pay_num=5200 },
+		[37]={ lv=17, cost_tid_list={{2608,62}}, attr={
+		[109]={ key=11, value=2870 },
+		[110]={ key=12, value=206 },
+		[111]={ key=13, value=29 },
+}, pay_id=1, pay_num=6200 },
+		[38]={ lv=18, cost_tid_list={{2608,74}}, attr={
+		[112]={ key=11, value=2955 },
+		[113]={ key=12, value=212 },
+		[114]={ key=13, value=31 },
+}, pay_id=1, pay_num=7400 },
+		[39]={ lv=19, cost_tid_list={{2608,88}}, attr={
+		[115]={ key=11, value=3041 },
+		[116]={ key=12, value=217 },
+		[117]={ key=13, value=34 },
+}, pay_id=1, pay_num=8800 },
+		[40]={ lv=20, cost_tid_list={{2608,108}}, attr={
+		[118]={ key=11, value=3127 },
+		[119]={ key=12, value=223 },
+		[120]={ key=13, value=36 },
+}, pay_id=1, pay_num=10800 },
+		[41]={ lv=21, cost_tid_list={{2608,132}}, attr={
+		[121]={ key=11, value=3217 },
+		[122]={ key=12, value=230 },
+		[123]={ key=13, value=40 },
+}, pay_id=1, pay_num=13200 },
+		[42]={ lv=22, cost_tid_list={{2608,160}}, attr={
+		[124]={ key=11, value=3309 },
+		[125]={ key=12, value=236 },
+		[126]={ key=13, value=43 },
+}, pay_id=1, pay_num=16000 },
+		[43]={ lv=23, cost_tid_list={{2608,196}}, attr={
+		[127]={ key=11, value=3404 },
+		[128]={ key=12, value=243 },
+		[129]={ key=13, value=46 },
+}, pay_id=1, pay_num=19600 },
+		[44]={ lv=24, cost_tid_list={{2608,240}}, attr={
+		[130]={ key=11, value=3503 },
+		[131]={ key=12, value=250 },
+		[132]={ key=13, value=50 },
+}, pay_id=1, pay_num=24000 },
+		[45]={ lv=25, cost_tid_list={}, attr={
+		[133]={ key=11, value=3604 },
+		[134]={ key=12, value=257 },
+		[135]={ key=13, value=53 },
+}, pay_id=1, pay_num=0 },
+}, egg_res_id=24014 },
+		[17]={ item_id=24017, hero_ele_type=1, level_data={
+		[21]={ lv=1, cost_tid_list={{2608,4}}, attr={
+		[61]={ key=11, value=1636 },
+		[62]={ key=12, value=115 },
+		[63]={ key=13, value=6 },
+}, pay_id=1, pay_num=400 },
+		[22]={ lv=2, cost_tid_list={{2608,5}}, attr={
+		[64]={ key=11, value=1706 },
+		[65]={ key=12, value=121 },
+		[66]={ key=13, value=6 },
+}, pay_id=1, pay_num=500 },
+		[23]={ lv=3, cost_tid_list={{2608,5}}, attr={
+		[67]={ key=11, value=1778 },
+		[68]={ key=12, value=127 },
+		[69]={ key=13, value=7 },
+}, pay_id=1, pay_num=600 },
+		[24]={ lv=4, cost_tid_list={{2608,6}}, attr={
+		[70]={ key=11, value=1850 },
+		[71]={ key=12, value=132 },
+		[72]={ key=13, value=8 },
+}, pay_id=1, pay_num=700 },
+		[25]={ lv=5, cost_tid_list={{2608,8}}, attr={
+		[73]={ key=11, value=1922 },
+		[74]={ key=12, value=138 },
+		[75]={ key=13, value=9 },
+}, pay_id=1, pay_num=800 },
+		[26]={ lv=6, cost_tid_list={{2608,10}}, attr={
+		[76]={ key=11, value=1996 },
+		[77]={ key=12, value=143 },
+		[78]={ key=13, value=10 },
+}, pay_id=1, pay_num=900 },
+		[27]={ lv=7, cost_tid_list={{2608,10}}, attr={
+		[79]={ key=11, value=2071 },
+		[80]={ key=12, value=148 },
+		[81]={ key=13, value=11 },
+}, pay_id=1, pay_num=1000 },
+		[28]={ lv=8, cost_tid_list={{2608,12}}, attr={
+		[82]={ key=11, value=2146 },
+		[83]={ key=12, value=154 },
+		[84]={ key=13, value=12 },
+}, pay_id=1, pay_num=1200 },
+		[29]={ lv=9, cost_tid_list={{2608,16}}, attr={
+		[85]={ key=11, value=2223 },
+		[86]={ key=12, value=159 },
+		[87]={ key=13, value=13 },
+}, pay_id=1, pay_num=1600 },
+		[30]={ lv=10, cost_tid_list={{2608,18}}, attr={
+		[88]={ key=11, value=2300 },
+		[89]={ key=12, value=165 },
+		[90]={ key=13, value=14 },
+}, pay_id=1, pay_num=1800 },
+		[31]={ lv=11, cost_tid_list={{2608,22}}, attr={
+		[91]={ key=11, value=2379 },
+		[92]={ key=12, value=171 },
+		[93]={ key=13, value=16 },
+}, pay_id=1, pay_num=2200 },
+		[32]={ lv=12, cost_tid_list={{2608,26}}, attr={
+		[94]={ key=11, value=2458 },
+		[95]={ key=12, value=176 },
+		[96]={ key=13, value=18 },
+}, pay_id=1, pay_num=2600 },
+		[33]={ lv=13, cost_tid_list={{2608,30}}, attr={
+		[97]={ key=11, value=2539 },
+		[98]={ key=12, value=182 },
+		[99]={ key=13, value=19 },
+}, pay_id=1, pay_num=3000 },
+		[34]={ lv=14, cost_tid_list={{2608,36}}, attr={
+		[100]={ key=11, value=2620 },
+		[101]={ key=12, value=188 },
+		[102]={ key=13, value=22 },
+}, pay_id=1, pay_num=3600 },
+		[35]={ lv=15, cost_tid_list={{2608,44}}, attr={
+		[103]={ key=11, value=2702 },
+		[104]={ key=12, value=194 },
+		[105]={ key=13, value=23 },
+}, pay_id=1, pay_num=4400 },
+		[36]={ lv=16, cost_tid_list={{2608,52}}, attr={
+		[106]={ key=11, value=2786 },
+		[107]={ key=12, value=200 },
+		[108]={ key=13, value=26 },
+}, pay_id=1, pay_num=5200 },
+		[37]={ lv=17, cost_tid_list={{2608,62}}, attr={
+		[109]={ key=11, value=2870 },
+		[110]={ key=12, value=206 },
+		[111]={ key=13, value=29 },
+}, pay_id=1, pay_num=6200 },
+		[38]={ lv=18, cost_tid_list={{2608,74}}, attr={
+		[112]={ key=11, value=2955 },
+		[113]={ key=12, value=212 },
+		[114]={ key=13, value=31 },
+}, pay_id=1, pay_num=7400 },
+		[39]={ lv=19, cost_tid_list={{2608,88}}, attr={
+		[115]={ key=11, value=3041 },
+		[116]={ key=12, value=217 },
+		[117]={ key=13, value=34 },
+}, pay_id=1, pay_num=8800 },
+		[40]={ lv=20, cost_tid_list={{2608,108}}, attr={
+		[118]={ key=11, value=3127 },
+		[119]={ key=12, value=223 },
+		[120]={ key=13, value=36 },
+}, pay_id=1, pay_num=10800 },
+		[41]={ lv=21, cost_tid_list={{2608,132}}, attr={
+		[121]={ key=11, value=3217 },
+		[122]={ key=12, value=230 },
+		[123]={ key=13, value=40 },
+}, pay_id=1, pay_num=13200 },
+		[42]={ lv=22, cost_tid_list={{2608,160}}, attr={
+		[124]={ key=11, value=3309 },
+		[125]={ key=12, value=236 },
+		[126]={ key=13, value=43 },
+}, pay_id=1, pay_num=16000 },
+		[43]={ lv=23, cost_tid_list={{2608,196}}, attr={
+		[127]={ key=11, value=3404 },
+		[128]={ key=12, value=243 },
+		[129]={ key=13, value=46 },
+}, pay_id=1, pay_num=19600 },
+		[44]={ lv=24, cost_tid_list={{2608,240}}, attr={
+		[130]={ key=11, value=3503 },
+		[131]={ key=12, value=250 },
+		[132]={ key=13, value=50 },
+}, pay_id=1, pay_num=24000 },
+		[45]={ lv=25, cost_tid_list={}, attr={
+		[133]={ key=11, value=3604 },
+		[134]={ key=12, value=257 },
+		[135]={ key=13, value=53 },
+}, pay_id=1, pay_num=0 },
+}, egg_res_id=24017 },
+}
+},
+	[1]={ ele_type_data={
+		[1]={ item_id=24001, hero_ele_type=2, level_data={
+		[1]={ lv=1, cost_tid_list={{2608,4}}, attr={
+		[1]={ key=11, value=993 },
+		[2]={ key=12, value=70 },
+		[3]={ key=13, value=4 },
+}, pay_id=1, pay_num=400 },
+		[2]={ lv=2, cost_tid_list={{2608,5}}, attr={
+		[4]={ key=11, value=1055 },
+		[5]={ key=12, value=75 },
+		[6]={ key=13, value=4 },
+}, pay_id=1, pay_num=500 },
+		[3]={ lv=3, cost_tid_list={{2608,5}}, attr={
+		[7]={ key=11, value=1118 },
+		[8]={ key=12, value=80 },
+		[9]={ key=13, value=5 },
+}, pay_id=1, pay_num=600 },
+		[4]={ lv=4, cost_tid_list={{2608,6}}, attr={
+		[10]={ key=11, value=1182 },
+		[11]={ key=12, value=85 },
+		[12]={ key=13, value=6 },
+}, pay_id=1, pay_num=700 },
+		[5]={ lv=5, cost_tid_list={{2608,8}}, attr={
+		[13]={ key=11, value=1245 },
+		[14]={ key=12, value=90 },
+		[15]={ key=13, value=7 },
+}, pay_id=1, pay_num=800 },
+		[6]={ lv=6, cost_tid_list={{2608,10}}, attr={
+		[16]={ key=11, value=1311 },
+		[17]={ key=12, value=94 },
+		[18]={ key=13, value=7 },
+}, pay_id=1, pay_num=900 },
+		[7]={ lv=7, cost_tid_list={{2608,10}}, attr={
+		[19]={ key=11, value=1377 },
+		[20]={ key=12, value=99 },
+		[21]={ key=13, value=8 },
+}, pay_id=1, pay_num=1000 },
+		[8]={ lv=8, cost_tid_list={{2608,12}}, attr={
+		[22]={ key=11, value=1443 },
+		[23]={ key=12, value=104 },
+		[24]={ key=13, value=9 },
+}, pay_id=1, pay_num=1200 },
+		[9]={ lv=9, cost_tid_list={{2608,16}}, attr={
+		[25]={ key=11, value=1511 },
+		[26]={ key=12, value=109 },
+		[27]={ key=13, value=10 },
+}, pay_id=1, pay_num=1600 },
+		[10]={ lv=10, cost_tid_list={{2608,18}}, attr={
+		[28]={ key=11, value=1579 },
+		[29]={ key=12, value=114 },
+		[30]={ key=13, value=11 },
+}, pay_id=1, pay_num=1800 },
+		[11]={ lv=11, cost_tid_list={{2608,22}}, attr={
+		[31]={ key=11, value=1649 },
+		[32]={ key=12, value=119 },
+		[33]={ key=13, value=13 },
+}, pay_id=1, pay_num=2200 },
+		[12]={ lv=12, cost_tid_list={{2608,26}}, attr={
+		[34]={ key=11, value=1719 },
+		[35]={ key=12, value=124 },
+		[36]={ key=13, value=14 },
+}, pay_id=1, pay_num=2600 },
+		[13]={ lv=13, cost_tid_list={{2608,30}}, attr={
+		[37]={ key=11, value=1790 },
+		[38]={ key=12, value=129 },
+		[39]={ key=13, value=16 },
+}, pay_id=1, pay_num=3000 },
+		[14]={ lv=14, cost_tid_list={{2608,36}}, attr={
+		[40]={ key=11, value=1861 },
+		[41]={ key=12, value=134 },
+		[42]={ key=13, value=18 },
+}, pay_id=1, pay_num=3600 },
+		[15]={ lv=15, cost_tid_list={{2608,44}}, attr={
+		[43]={ key=11, value=1934 },
+		[44]={ key=12, value=139 },
+		[45]={ key=13, value=19 },
+}, pay_id=1, pay_num=4400 },
+		[16]={ lv=16, cost_tid_list={{2608,52}}, attr={
+		[46]={ key=11, value=2007 },
+		[47]={ key=12, value=145 },
+		[48]={ key=13, value=22 },
+}, pay_id=1, pay_num=5200 },
+		[17]={ lv=17, cost_tid_list={{2608,62}}, attr={
+		[49]={ key=11, value=2082 },
+		[50]={ key=12, value=150 },
+		[51]={ key=13, value=24 },
+}, pay_id=1, pay_num=6200 },
+		[18]={ lv=18, cost_tid_list={{2608,74}}, attr={
+		[52]={ key=11, value=2157 },
+		[53]={ key=12, value=155 },
+		[54]={ key=13, value=26 },
+}, pay_id=1, pay_num=7400 },
+		[19]={ lv=19, cost_tid_list={{2608,88}}, attr={
+		[55]={ key=11, value=2232 },
+		[56]={ key=12, value=160 },
+		[57]={ key=13, value=28 },
+}, pay_id=1, pay_num=8800 },
+		[20]={ lv=20, cost_tid_list={}, attr={
+		[58]={ key=11, value=2309 },
+		[59]={ key=12, value=166 },
+		[60]={ key=13, value=31 },
+}, pay_id=1, pay_num=0 },
+}, egg_res_id=24001 },
+		[4]={ item_id=24004, hero_ele_type=3, level_data={
+		[1]={ lv=1, cost_tid_list={{2608,4}}, attr={
+		[1]={ key=11, value=993 },
+		[2]={ key=12, value=70 },
+		[3]={ key=13, value=4 },
+}, pay_id=1, pay_num=400 },
+		[2]={ lv=2, cost_tid_list={{2608,5}}, attr={
+		[4]={ key=11, value=1055 },
+		[5]={ key=12, value=75 },
+		[6]={ key=13, value=4 },
+}, pay_id=1, pay_num=500 },
+		[3]={ lv=3, cost_tid_list={{2608,5}}, attr={
+		[7]={ key=11, value=1118 },
+		[8]={ key=12, value=80 },
+		[9]={ key=13, value=5 },
+}, pay_id=1, pay_num=600 },
+		[4]={ lv=4, cost_tid_list={{2608,6}}, attr={
+		[10]={ key=11, value=1182 },
+		[11]={ key=12, value=85 },
+		[12]={ key=13, value=6 },
+}, pay_id=1, pay_num=700 },
+		[5]={ lv=5, cost_tid_list={{2608,8}}, attr={
+		[13]={ key=11, value=1245 },
+		[14]={ key=12, value=90 },
+		[15]={ key=13, value=7 },
+}, pay_id=1, pay_num=800 },
+		[6]={ lv=6, cost_tid_list={{2608,10}}, attr={
+		[16]={ key=11, value=1311 },
+		[17]={ key=12, value=94 },
+		[18]={ key=13, value=7 },
+}, pay_id=1, pay_num=900 },
+		[7]={ lv=7, cost_tid_list={{2608,10}}, attr={
+		[19]={ key=11, value=1377 },
+		[20]={ key=12, value=99 },
+		[21]={ key=13, value=8 },
+}, pay_id=1, pay_num=1000 },
+		[8]={ lv=8, cost_tid_list={{2608,12}}, attr={
+		[22]={ key=11, value=1443 },
+		[23]={ key=12, value=104 },
+		[24]={ key=13, value=9 },
+}, pay_id=1, pay_num=1200 },
+		[9]={ lv=9, cost_tid_list={{2608,16}}, attr={
+		[25]={ key=11, value=1511 },
+		[26]={ key=12, value=109 },
+		[27]={ key=13, value=10 },
+}, pay_id=1, pay_num=1600 },
+		[10]={ lv=10, cost_tid_list={{2608,18}}, attr={
+		[28]={ key=11, value=1579 },
+		[29]={ key=12, value=114 },
+		[30]={ key=13, value=11 },
+}, pay_id=1, pay_num=1800 },
+		[11]={ lv=11, cost_tid_list={{2608,22}}, attr={
+		[31]={ key=11, value=1649 },
+		[32]={ key=12, value=119 },
+		[33]={ key=13, value=13 },
+}, pay_id=1, pay_num=2200 },
+		[12]={ lv=12, cost_tid_list={{2608,26}}, attr={
+		[34]={ key=11, value=1719 },
+		[35]={ key=12, value=124 },
+		[36]={ key=13, value=14 },
+}, pay_id=1, pay_num=2600 },
+		[13]={ lv=13, cost_tid_list={{2608,30}}, attr={
+		[37]={ key=11, value=1790 },
+		[38]={ key=12, value=129 },
+		[39]={ key=13, value=16 },
+}, pay_id=1, pay_num=3000 },
+		[14]={ lv=14, cost_tid_list={{2608,36}}, attr={
+		[40]={ key=11, value=1861 },
+		[41]={ key=12, value=134 },
+		[42]={ key=13, value=18 },
+}, pay_id=1, pay_num=3600 },
+		[15]={ lv=15, cost_tid_list={{2608,44}}, attr={
+		[43]={ key=11, value=1934 },
+		[44]={ key=12, value=139 },
+		[45]={ key=13, value=19 },
+}, pay_id=1, pay_num=4400 },
+		[16]={ lv=16, cost_tid_list={{2608,52}}, attr={
+		[46]={ key=11, value=2007 },
+		[47]={ key=12, value=145 },
+		[48]={ key=13, value=22 },
+}, pay_id=1, pay_num=5200 },
+		[17]={ lv=17, cost_tid_list={{2608,62}}, attr={
+		[49]={ key=11, value=2082 },
+		[50]={ key=12, value=150 },
+		[51]={ key=13, value=24 },
+}, pay_id=1, pay_num=6200 },
+		[18]={ lv=18, cost_tid_list={{2608,74}}, attr={
+		[52]={ key=11, value=2157 },
+		[53]={ key=12, value=155 },
+		[54]={ key=13, value=26 },
+}, pay_id=1, pay_num=7400 },
+		[19]={ lv=19, cost_tid_list={{2608,88}}, attr={
+		[55]={ key=11, value=2232 },
+		[56]={ key=12, value=160 },
+		[57]={ key=13, value=28 },
+}, pay_id=1, pay_num=8800 },
+		[20]={ lv=20, cost_tid_list={}, attr={
+		[58]={ key=11, value=2309 },
+		[59]={ key=12, value=166 },
+		[60]={ key=13, value=31 },
+}, pay_id=1, pay_num=0 },
+}, egg_res_id=24004 },
+		[7]={ item_id=24007, hero_ele_type=4, level_data={
+		[1]={ lv=1, cost_tid_list={{2608,4}}, attr={
+		[1]={ key=11, value=993 },
+		[2]={ key=12, value=70 },
+		[3]={ key=13, value=4 },
+}, pay_id=1, pay_num=400 },
+		[2]={ lv=2, cost_tid_list={{2608,5}}, attr={
+		[4]={ key=11, value=1055 },
+		[5]={ key=12, value=75 },
+		[6]={ key=13, value=4 },
+}, pay_id=1, pay_num=500 },
+		[3]={ lv=3, cost_tid_list={{2608,5}}, attr={
+		[7]={ key=11, value=1118 },
+		[8]={ key=12, value=80 },
+		[9]={ key=13, value=5 },
+}, pay_id=1, pay_num=600 },
+		[4]={ lv=4, cost_tid_list={{2608,6}}, attr={
+		[10]={ key=11, value=1182 },
+		[11]={ key=12, value=85 },
+		[12]={ key=13, value=6 },
+}, pay_id=1, pay_num=700 },
+		[5]={ lv=5, cost_tid_list={{2608,8}}, attr={
+		[13]={ key=11, value=1245 },
+		[14]={ key=12, value=90 },
+		[15]={ key=13, value=7 },
+}, pay_id=1, pay_num=800 },
+		[6]={ lv=6, cost_tid_list={{2608,10}}, attr={
+		[16]={ key=11, value=1311 },
+		[17]={ key=12, value=94 },
+		[18]={ key=13, value=7 },
+}, pay_id=1, pay_num=900 },
+		[7]={ lv=7, cost_tid_list={{2608,10}}, attr={
+		[19]={ key=11, value=1377 },
+		[20]={ key=12, value=99 },
+		[21]={ key=13, value=8 },
+}, pay_id=1, pay_num=1000 },
+		[8]={ lv=8, cost_tid_list={{2608,12}}, attr={
+		[22]={ key=11, value=1443 },
+		[23]={ key=12, value=104 },
+		[24]={ key=13, value=9 },
+}, pay_id=1, pay_num=1200 },
+		[9]={ lv=9, cost_tid_list={{2608,16}}, attr={
+		[25]={ key=11, value=1511 },
+		[26]={ key=12, value=109 },
+		[27]={ key=13, value=10 },
+}, pay_id=1, pay_num=1600 },
+		[10]={ lv=10, cost_tid_list={{2608,18}}, attr={
+		[28]={ key=11, value=1579 },
+		[29]={ key=12, value=114 },
+		[30]={ key=13, value=11 },
+}, pay_id=1, pay_num=1800 },
+		[11]={ lv=11, cost_tid_list={{2608,22}}, attr={
+		[31]={ key=11, value=1649 },
+		[32]={ key=12, value=119 },
+		[33]={ key=13, value=13 },
+}, pay_id=1, pay_num=2200 },
+		[12]={ lv=12, cost_tid_list={{2608,26}}, attr={
+		[34]={ key=11, value=1719 },
+		[35]={ key=12, value=124 },
+		[36]={ key=13, value=14 },
+}, pay_id=1, pay_num=2600 },
+		[13]={ lv=13, cost_tid_list={{2608,30}}, attr={
+		[37]={ key=11, value=1790 },
+		[38]={ key=12, value=129 },
+		[39]={ key=13, value=16 },
+}, pay_id=1, pay_num=3000 },
+		[14]={ lv=14, cost_tid_list={{2608,36}}, attr={
+		[40]={ key=11, value=1861 },
+		[41]={ key=12, value=134 },
+		[42]={ key=13, value=18 },
+}, pay_id=1, pay_num=3600 },
+		[15]={ lv=15, cost_tid_list={{2608,44}}, attr={
+		[43]={ key=11, value=1934 },
+		[44]={ key=12, value=139 },
+		[45]={ key=13, value=19 },
+}, pay_id=1, pay_num=4400 },
+		[16]={ lv=16, cost_tid_list={{2608,52}}, attr={
+		[46]={ key=11, value=2007 },
+		[47]={ key=12, value=145 },
+		[48]={ key=13, value=22 },
+}, pay_id=1, pay_num=5200 },
+		[17]={ lv=17, cost_tid_list={{2608,62}}, attr={
+		[49]={ key=11, value=2082 },
+		[50]={ key=12, value=150 },
+		[51]={ key=13, value=24 },
+}, pay_id=1, pay_num=6200 },
+		[18]={ lv=18, cost_tid_list={{2608,74}}, attr={
+		[52]={ key=11, value=2157 },
+		[53]={ key=12, value=155 },
+		[54]={ key=13, value=26 },
+}, pay_id=1, pay_num=7400 },
+		[19]={ lv=19, cost_tid_list={{2608,88}}, attr={
+		[55]={ key=11, value=2232 },
+		[56]={ key=12, value=160 },
+		[57]={ key=13, value=28 },
+}, pay_id=1, pay_num=8800 },
+		[20]={ lv=20, cost_tid_list={}, attr={
+		[58]={ key=11, value=2309 },
+		[59]={ key=12, value=166 },
+		[60]={ key=13, value=31 },
+}, pay_id=1, pay_num=0 },
+}, egg_res_id=24007 },
+		[10]={ item_id=24010, hero_ele_type=0, level_data={
+		[1]={ lv=1, cost_tid_list={{2608,4}}, attr={
+		[1]={ key=11, value=993 },
+		[2]={ key=12, value=70 },
+		[3]={ key=13, value=4 },
+}, pay_id=1, pay_num=400 },
+		[2]={ lv=2, cost_tid_list={{2608,5}}, attr={
+		[4]={ key=11, value=1055 },
+		[5]={ key=12, value=75 },
+		[6]={ key=13, value=4 },
+}, pay_id=1, pay_num=500 },
+		[3]={ lv=3, cost_tid_list={{2608,5}}, attr={
+		[7]={ key=11, value=1118 },
+		[8]={ key=12, value=80 },
+		[9]={ key=13, value=5 },
+}, pay_id=1, pay_num=600 },
+		[4]={ lv=4, cost_tid_list={{2608,6}}, attr={
+		[10]={ key=11, value=1182 },
+		[11]={ key=12, value=85 },
+		[12]={ key=13, value=6 },
+}, pay_id=1, pay_num=700 },
+		[5]={ lv=5, cost_tid_list={{2608,8}}, attr={
+		[13]={ key=11, value=1245 },
+		[14]={ key=12, value=90 },
+		[15]={ key=13, value=7 },
+}, pay_id=1, pay_num=800 },
+		[6]={ lv=6, cost_tid_list={{2608,10}}, attr={
+		[16]={ key=11, value=1311 },
+		[17]={ key=12, value=94 },
+		[18]={ key=13, value=7 },
+}, pay_id=1, pay_num=900 },
+		[7]={ lv=7, cost_tid_list={{2608,10}}, attr={
+		[19]={ key=11, value=1377 },
+		[20]={ key=12, value=99 },
+		[21]={ key=13, value=8 },
+}, pay_id=1, pay_num=1000 },
+		[8]={ lv=8, cost_tid_list={{2608,12}}, attr={
+		[22]={ key=11, value=1443 },
+		[23]={ key=12, value=104 },
+		[24]={ key=13, value=9 },
+}, pay_id=1, pay_num=1200 },
+		[9]={ lv=9, cost_tid_list={{2608,16}}, attr={
+		[25]={ key=11, value=1511 },
+		[26]={ key=12, value=109 },
+		[27]={ key=13, value=10 },
+}, pay_id=1, pay_num=1600 },
+		[10]={ lv=10, cost_tid_list={{2608,18}}, attr={
+		[28]={ key=11, value=1579 },
+		[29]={ key=12, value=114 },
+		[30]={ key=13, value=11 },
+}, pay_id=1, pay_num=1800 },
+		[11]={ lv=11, cost_tid_list={{2608,22}}, attr={
+		[31]={ key=11, value=1649 },
+		[32]={ key=12, value=119 },
+		[33]={ key=13, value=13 },
+}, pay_id=1, pay_num=2200 },
+		[12]={ lv=12, cost_tid_list={{2608,26}}, attr={
+		[34]={ key=11, value=1719 },
+		[35]={ key=12, value=124 },
+		[36]={ key=13, value=14 },
+}, pay_id=1, pay_num=2600 },
+		[13]={ lv=13, cost_tid_list={{2608,30}}, attr={
+		[37]={ key=11, value=1790 },
+		[38]={ key=12, value=129 },
+		[39]={ key=13, value=16 },
+}, pay_id=1, pay_num=3000 },
+		[14]={ lv=14, cost_tid_list={{2608,36}}, attr={
+		[40]={ key=11, value=1861 },
+		[41]={ key=12, value=134 },
+		[42]={ key=13, value=18 },
+}, pay_id=1, pay_num=3600 },
+		[15]={ lv=15, cost_tid_list={{2608,44}}, attr={
+		[43]={ key=11, value=1934 },
+		[44]={ key=12, value=139 },
+		[45]={ key=13, value=19 },
+}, pay_id=1, pay_num=4400 },
+		[16]={ lv=16, cost_tid_list={{2608,52}}, attr={
+		[46]={ key=11, value=2007 },
+		[47]={ key=12, value=145 },
+		[48]={ key=13, value=22 },
+}, pay_id=1, pay_num=5200 },
+		[17]={ lv=17, cost_tid_list={{2608,62}}, attr={
+		[49]={ key=11, value=2082 },
+		[50]={ key=12, value=150 },
+		[51]={ key=13, value=24 },
+}, pay_id=1, pay_num=6200 },
+		[18]={ lv=18, cost_tid_list={{2608,74}}, attr={
+		[52]={ key=11, value=2157 },
+		[53]={ key=12, value=155 },
+		[54]={ key=13, value=26 },
+}, pay_id=1, pay_num=7400 },
+		[19]={ lv=19, cost_tid_list={{2608,88}}, attr={
+		[55]={ key=11, value=2232 },
+		[56]={ key=12, value=160 },
+		[57]={ key=13, value=28 },
+}, pay_id=1, pay_num=8800 },
+		[20]={ lv=20, cost_tid_list={}, attr={
+		[58]={ key=11, value=2309 },
+		[59]={ key=12, value=166 },
+		[60]={ key=13, value=31 },
+}, pay_id=1, pay_num=0 },
+}, egg_res_id=24010 },
+		[13]={ item_id=24013, hero_ele_type=5, level_data={
+		[1]={ lv=1, cost_tid_list={{2608,4}}, attr={
+		[1]={ key=11, value=993 },
+		[2]={ key=12, value=70 },
+		[3]={ key=13, value=4 },
+}, pay_id=1, pay_num=400 },
+		[2]={ lv=2, cost_tid_list={{2608,5}}, attr={
+		[4]={ key=11, value=1055 },
+		[5]={ key=12, value=75 },
+		[6]={ key=13, value=4 },
+}, pay_id=1, pay_num=500 },
+		[3]={ lv=3, cost_tid_list={{2608,5}}, attr={
+		[7]={ key=11, value=1118 },
+		[8]={ key=12, value=80 },
+		[9]={ key=13, value=5 },
+}, pay_id=1, pay_num=600 },
+		[4]={ lv=4, cost_tid_list={{2608,6}}, attr={
+		[10]={ key=11, value=1182 },
+		[11]={ key=12, value=85 },
+		[12]={ key=13, value=6 },
+}, pay_id=1, pay_num=700 },
+		[5]={ lv=5, cost_tid_list={{2608,8}}, attr={
+		[13]={ key=11, value=1245 },
+		[14]={ key=12, value=90 },
+		[15]={ key=13, value=7 },
+}, pay_id=1, pay_num=800 },
+		[6]={ lv=6, cost_tid_list={{2608,10}}, attr={
+		[16]={ key=11, value=1311 },
+		[17]={ key=12, value=94 },
+		[18]={ key=13, value=7 },
+}, pay_id=1, pay_num=900 },
+		[7]={ lv=7, cost_tid_list={{2608,10}}, attr={
+		[19]={ key=11, value=1377 },
+		[20]={ key=12, value=99 },
+		[21]={ key=13, value=8 },
+}, pay_id=1, pay_num=1000 },
+		[8]={ lv=8, cost_tid_list={{2608,12}}, attr={
+		[22]={ key=11, value=1443 },
+		[23]={ key=12, value=104 },
+		[24]={ key=13, value=9 },
+}, pay_id=1, pay_num=1200 },
+		[9]={ lv=9, cost_tid_list={{2608,16}}, attr={
+		[25]={ key=11, value=1511 },
+		[26]={ key=12, value=109 },
+		[27]={ key=13, value=10 },
+}, pay_id=1, pay_num=1600 },
+		[10]={ lv=10, cost_tid_list={{2608,18}}, attr={
+		[28]={ key=11, value=1579 },
+		[29]={ key=12, value=114 },
+		[30]={ key=13, value=11 },
+}, pay_id=1, pay_num=1800 },
+		[11]={ lv=11, cost_tid_list={{2608,22}}, attr={
+		[31]={ key=11, value=1649 },
+		[32]={ key=12, value=119 },
+		[33]={ key=13, value=13 },
+}, pay_id=1, pay_num=2200 },
+		[12]={ lv=12, cost_tid_list={{2608,26}}, attr={
+		[34]={ key=11, value=1719 },
+		[35]={ key=12, value=124 },
+		[36]={ key=13, value=14 },
+}, pay_id=1, pay_num=2600 },
+		[13]={ lv=13, cost_tid_list={{2608,30}}, attr={
+		[37]={ key=11, value=1790 },
+		[38]={ key=12, value=129 },
+		[39]={ key=13, value=16 },
+}, pay_id=1, pay_num=3000 },
+		[14]={ lv=14, cost_tid_list={{2608,36}}, attr={
+		[40]={ key=11, value=1861 },
+		[41]={ key=12, value=134 },
+		[42]={ key=13, value=18 },
+}, pay_id=1, pay_num=3600 },
+		[15]={ lv=15, cost_tid_list={{2608,44}}, attr={
+		[43]={ key=11, value=1934 },
+		[44]={ key=12, value=139 },
+		[45]={ key=13, value=19 },
+}, pay_id=1, pay_num=4400 },
+		[16]={ lv=16, cost_tid_list={{2608,52}}, attr={
+		[46]={ key=11, value=2007 },
+		[47]={ key=12, value=145 },
+		[48]={ key=13, value=22 },
+}, pay_id=1, pay_num=5200 },
+		[17]={ lv=17, cost_tid_list={{2608,62}}, attr={
+		[49]={ key=11, value=2082 },
+		[50]={ key=12, value=150 },
+		[51]={ key=13, value=24 },
+}, pay_id=1, pay_num=6200 },
+		[18]={ lv=18, cost_tid_list={{2608,74}}, attr={
+		[52]={ key=11, value=2157 },
+		[53]={ key=12, value=155 },
+		[54]={ key=13, value=26 },
+}, pay_id=1, pay_num=7400 },
+		[19]={ lv=19, cost_tid_list={{2608,88}}, attr={
+		[55]={ key=11, value=2232 },
+		[56]={ key=12, value=160 },
+		[57]={ key=13, value=28 },
+}, pay_id=1, pay_num=8800 },
+		[20]={ lv=20, cost_tid_list={}, attr={
+		[58]={ key=11, value=2309 },
+		[59]={ key=12, value=166 },
+		[60]={ key=13, value=31 },
+}, pay_id=1, pay_num=0 },
+}, egg_res_id=24013 },
+		[16]={ item_id=24016, hero_ele_type=1, level_data={
+		[1]={ lv=1, cost_tid_list={{2608,4}}, attr={
+		[1]={ key=11, value=993 },
+		[2]={ key=12, value=70 },
+		[3]={ key=13, value=4 },
+}, pay_id=1, pay_num=400 },
+		[2]={ lv=2, cost_tid_list={{2608,5}}, attr={
+		[4]={ key=11, value=1055 },
+		[5]={ key=12, value=75 },
+		[6]={ key=13, value=4 },
+}, pay_id=1, pay_num=500 },
+		[3]={ lv=3, cost_tid_list={{2608,5}}, attr={
+		[7]={ key=11, value=1118 },
+		[8]={ key=12, value=80 },
+		[9]={ key=13, value=5 },
+}, pay_id=1, pay_num=600 },
+		[4]={ lv=4, cost_tid_list={{2608,6}}, attr={
+		[10]={ key=11, value=1182 },
+		[11]={ key=12, value=85 },
+		[12]={ key=13, value=6 },
+}, pay_id=1, pay_num=700 },
+		[5]={ lv=5, cost_tid_list={{2608,8}}, attr={
+		[13]={ key=11, value=1245 },
+		[14]={ key=12, value=90 },
+		[15]={ key=13, value=7 },
+}, pay_id=1, pay_num=800 },
+		[6]={ lv=6, cost_tid_list={{2608,10}}, attr={
+		[16]={ key=11, value=1311 },
+		[17]={ key=12, value=94 },
+		[18]={ key=13, value=7 },
+}, pay_id=1, pay_num=900 },
+		[7]={ lv=7, cost_tid_list={{2608,10}}, attr={
+		[19]={ key=11, value=1377 },
+		[20]={ key=12, value=99 },
+		[21]={ key=13, value=8 },
+}, pay_id=1, pay_num=1000 },
+		[8]={ lv=8, cost_tid_list={{2608,12}}, attr={
+		[22]={ key=11, value=1443 },
+		[23]={ key=12, value=104 },
+		[24]={ key=13, value=9 },
+}, pay_id=1, pay_num=1200 },
+		[9]={ lv=9, cost_tid_list={{2608,16}}, attr={
+		[25]={ key=11, value=1511 },
+		[26]={ key=12, value=109 },
+		[27]={ key=13, value=10 },
+}, pay_id=1, pay_num=1600 },
+		[10]={ lv=10, cost_tid_list={{2608,18}}, attr={
+		[28]={ key=11, value=1579 },
+		[29]={ key=12, value=114 },
+		[30]={ key=13, value=11 },
+}, pay_id=1, pay_num=1800 },
+		[11]={ lv=11, cost_tid_list={{2608,22}}, attr={
+		[31]={ key=11, value=1649 },
+		[32]={ key=12, value=119 },
+		[33]={ key=13, value=13 },
+}, pay_id=1, pay_num=2200 },
+		[12]={ lv=12, cost_tid_list={{2608,26}}, attr={
+		[34]={ key=11, value=1719 },
+		[35]={ key=12, value=124 },
+		[36]={ key=13, value=14 },
+}, pay_id=1, pay_num=2600 },
+		[13]={ lv=13, cost_tid_list={{2608,30}}, attr={
+		[37]={ key=11, value=1790 },
+		[38]={ key=12, value=129 },
+		[39]={ key=13, value=16 },
+}, pay_id=1, pay_num=3000 },
+		[14]={ lv=14, cost_tid_list={{2608,36}}, attr={
+		[40]={ key=11, value=1861 },
+		[41]={ key=12, value=134 },
+		[42]={ key=13, value=18 },
+}, pay_id=1, pay_num=3600 },
+		[15]={ lv=15, cost_tid_list={{2608,44}}, attr={
+		[43]={ key=11, value=1934 },
+		[44]={ key=12, value=139 },
+		[45]={ key=13, value=19 },
+}, pay_id=1, pay_num=4400 },
+		[16]={ lv=16, cost_tid_list={{2608,52}}, attr={
+		[46]={ key=11, value=2007 },
+		[47]={ key=12, value=145 },
+		[48]={ key=13, value=22 },
+}, pay_id=1, pay_num=5200 },
+		[17]={ lv=17, cost_tid_list={{2608,62}}, attr={
+		[49]={ key=11, value=2082 },
+		[50]={ key=12, value=150 },
+		[51]={ key=13, value=24 },
+}, pay_id=1, pay_num=6200 },
+		[18]={ lv=18, cost_tid_list={{2608,74}}, attr={
+		[52]={ key=11, value=2157 },
+		[53]={ key=12, value=155 },
+		[54]={ key=13, value=26 },
+}, pay_id=1, pay_num=7400 },
+		[19]={ lv=19, cost_tid_list={{2608,88}}, attr={
+		[55]={ key=11, value=2232 },
+		[56]={ key=12, value=160 },
+		[57]={ key=13, value=28 },
+}, pay_id=1, pay_num=8800 },
+		[20]={ lv=20, cost_tid_list={}, attr={
+		[58]={ key=11, value=2309 },
+		[59]={ key=12, value=166 },
+		[60]={ key=13, value=31 },
+}, pay_id=1, pay_num=0 },
+}, egg_res_id=24016 },
+}
+}
+}
+
+return egg_data

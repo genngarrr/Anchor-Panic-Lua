@@ -1,0 +1,83 @@
+return {
+
+    -- web的游戏平台id
+    ["web_game_platform_id"] = "33",
+
+    -------------------------------------------------- server-manager-api-mdjl-en --------------------------------------------------
+    -- 获取服务器相关信息
+    ["server_info"] = "https://server-manager-api-mdjl-en.51haodong.com/ApiServerInfo/getSrvInfo/g/33",
+    -- 获取指定服或推荐服（没有选服界面）
+    ["recommand_server_info"] = "https://server-manager-api-mdjl-en.51haodong.com/ApiServer/pfRecommendSrvList/g/33",
+
+    -------------------------------------------------- web-gms-api-mdjl-en --------------------------------------------------
+    -- 玩家信息手机地址（这里做个备忘）：https://web-gms-api-mdjl-en.51haodong.com/Api/GameReport/collectInfo/g/33
+    -- 文件上传密钥
+    ["upload_file_key"] = "MqBoaqj17VHuzjiXjJK9AxJbaW1cChwt",
+    -- 文件上传地址
+    ["upload_file_url"] = "https://web-gms-api-mdjl-en.51haodong.com/Api/GameReport/fileMsg/g/33",
+    -- 文件实时上传地址
+    ["upload_real_time_url"] = "https://web-gms-api-mdjl-en.51haodong.com/Api/GameReport/gameReportRealtime/g/33",
+    -- 文件上传类型地址
+    ["get_upload_type_url"] = "https://web-gms-api-mdjl-en.51haodong.com/Api/GameReport/checkCollect/g/33",
+
+    -- 渠道cdn资源更新类型
+    ["check_channel_update_type"] = "https://web-gms-api-mdjl-en.51haodong.com/Api/ClientServer/checkChannelAllUpdate/g/33",
+    -- 通用参数统计
+    ["generic_args_url"] = "https://web-gms-api-mdjl-en.51haodong.com/ClientServer/genericArgs/g/33",
+
+    -- 获取服务器列表
+    -- ["server_list"] = "https://web-gms-api-mdjl-en.51haodong.com/ApiServer/getPfSrvList/g/33",
+    -- 获取登录公告多栏目
+    ["bulletin_list_url"] = "https://web-gms-api-mdjl-en.51haodong.com/Api/Bulletin/getLoginBulletins/g/33",
+    -- 上报步骤统计
+    ["report_step_url"] = "https://web-gms-api-mdjl-en.51haodong.com/Api/ClientServer/loginStepLogs/g/33",
+    -- -- 上报步骤加载时长统计
+    -- ["report_step_loading_time_url"] = "",
+    -- bug统计
+    ["bug_url"] = "https://web-gms-api-mdjl-en.51haodong.com/Api/ClientServer/clientBugLogs/g/33",
+    -- 获取QQ客服
+    ["qq_service_url"] = "https://web-gms-api-mdjl-en.51haodong.com/Bulletin/getCustomerServiceQq/g/33",
+    -- -- 获取VIP客服
+    -- ["vip_service_url"] = "",
+    
+    -- 获取IP地址
+    ["get_ip"] = "https://web-gms-api-mdjl-en.51haodong.com/Api/IpInfo/getClientIP/g/33",
+
+    -- 获取资源密钥（本处改动需同步发布机）
+    ["get_ab_key"] = "https://web-gms-api-mdjl-en.51haodong.com/WebKeyConfig/getWebKeyConfig/g/33",
+
+    -------------------------------------------------- sdk-app-mdjl-en --------------------------------------------------
+    -- 获取token
+    ["token_url"] = "https://sdk-app-mdjl-en.51haodong.com/User/Login/g/33",
+    -- 获取玩家账号信息
+    ["player_info_url"] = "",
+    -- 请求订单充值
+    ["recharge_order_url"] = "https://sdk-app-mdjl-en.51haodong.com/Pay/order/g/33/pf/",
+
+    -- 公共key（本处改动需同步发布机）
+    ["common_key"] = "0fVywxPwwYx5IHQvT3GQwWZzuDWbj5Jd",
+
+    -------------------------------------------------- bugly sdk --------------------------------------------------
+    -- bugly 是否debug模式，是则会实时上报日志
+    ["bugly_is_debug"] = "0",
+    -- bugly appId
+    ["bugly_app_id_ios"] = "14b6287881",
+    ["bugly_app_id_android"] = "5627c7ebc5",
+
+    -------------------------------------------------- 云桶 sdk --------------------------------------------------
+    -- 云桶 账户的账户标识
+    ["cosxml_app_id"] = "100014646854",
+    -- 云桶 所在地域
+    ["cosxml_region"] = "na-ashburn",
+    -- 云桶 名字：格式：BucketName-AppId
+    ["cosxml_bucket"] = "laoqb-voice-en-1302431716",
+    -- 云桶 SecretId
+    ["cosxml_secret_id"] = "AKIDWu9OXVGvbEhyFXdWEk3A4lFVYOAoLgnh",
+    -- 云桶 SecretKey
+    ["cosxml_secret_key"] = "kGalmbEdxDNPI2kMstjMCqGUcXFj03tV",
+    -- 云桶 是否debug模式
+    ["cosxml_is_debug"] = "0",
+}
+ 
+--[[ 替换语言包自动生成，请勿修改！
+]]
